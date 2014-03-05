@@ -46,7 +46,7 @@ app
                 }
             });
       
-        var bullets = document.getElementById('position').getElementsByTagName('span');
+        // var bullets = document.getElementById('position').getElementsByTagName('span');
 
     }
 ]);
