@@ -214,18 +214,7 @@ header {
   @include horizontal-center();
   @include vertical-center();
   span {
-    border: 3px solid #aaa;
-    border-radius: 100px;
     color: #aaa;
-    padding: 20px;
-  }
-}
-
-.page-btn:nth-child(2) {
-  span {
-    border: none;
-    border-radius: 100px;
-    padding: 20px;
   }
 }
 
