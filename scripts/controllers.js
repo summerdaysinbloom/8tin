@@ -36,7 +36,7 @@ app
                 continuous: true,
                 disableScroll: false,
                 stopPropagation: false,
-                speed: 400,
+                speed: 1000,
                 callback: function(pos) {
                     // var i = bullets.length;
                     // while (i--) {
