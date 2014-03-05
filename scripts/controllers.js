@@ -21,32 +21,40 @@ app
         // console.log('@@@',JSON.stringify(final));
     }
 ])
-.controller('DineinCtrl',['$scope', '$location',
-	function($scope, $location) {
+.controller('DineinCtrl',['$scope', '$timeout',
+	function($scope, $timeout) {
 		console.log('DineinCtrl');
 
-        window.slider = new Swipe(document.getElementById('slider'), {
-            auto: false,
-            continuous: true,
-            disableScroll: false,
-            speed: 300,
-            // startSlide: 1,
-            stopPropagation: false,
-        });
+        $timeout(function() {
+            console.log('asdf');
+            window.slider = new Swipe(document.getElementById('slider'), {
+                auto: false,
+                continuous: true,
+                disableScroll: false,
+                speed: 300,
+                // startSlide: 1,
+                stopPropagation: false,
+            });
+                
+        }, 800);
 	}
 ])
 .controller('DineoutCtrl', ['$scope', '$timeout', 
     function($scope, $timeout) {
         console.log('DineoutCtrl');
 
-        window.slider = new Swipe(document.getElementById('slider'), {
-            auto: false,
-            continuous: true,
-            disableScroll: false,
-            speed: 300,
-            // startSlide: 1,
-            stopPropagation: false,
-        });
+        $timeout(function() {
+            console.log('asdf');
+            window.slider = new Swipe(document.getElementById('slider'), {
+                auto: false,
+                continuous: true,
+                disableScroll: false,
+                speed: 300,
+                // startSlide: 1,
+                stopPropagation: false,
+            });
+                
+        }, 800);
 
         // var slider =
         //     Swipe(document.getElementById('slider'), {
