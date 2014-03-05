@@ -171,6 +171,9 @@ header {
   p:nth-child(3) {
     text-align: right;
   }
+  a:hover {
+    -webkit-tap-highlight-color: #fff;
+  }
 }
 
 #containter {

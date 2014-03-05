@@ -1,7 +1,7 @@
 'use strict';
 
 /* App Module */
-var app = angular.module('fingerApp', [
+var app = angular.module('ffApp', [
     'ngRoute',
     'ngControllers',
     'ngAnimate'
