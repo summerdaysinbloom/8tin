@@ -30,7 +30,7 @@ app
             continuous: true,
             disableScroll: false,
             speed: 300,
-            startSlide: 1,
+            // startSlide: 1,
             stopPropagation: false,
         });
 	}
@@ -44,7 +44,7 @@ app
             continuous: true,
             disableScroll: false,
             speed: 300,
-            startSlide: 1,
+            // startSlide: 1,
             stopPropagation: false,
         });
 
