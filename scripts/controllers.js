@@ -32,6 +32,7 @@ app
         
         var slider =
             Swipe(document.getElementById('slider'), {
+                startSlide: 2,
                 auto: false,
                 continuous: true,
                 disableScroll: false,
