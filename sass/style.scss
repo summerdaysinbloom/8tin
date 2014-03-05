@@ -132,23 +132,11 @@ ul {
 
 /* purecss basic topup */
 .l-box {
-  padding: 0.5em 1.0em;
-}
-
-.t-box {
-  padding: 1em 0 0;
-}
-
-.n-box {
-  padding: 0;
+  padding: 1.0em;
 }
 
 .m-box {
-  padding: 1.5em 1.0em;
-}
-
-.pure-form legend {
-  border-bottom: none;
+  padding: 1.5em 0em;
 }
 
 /* background image and snow image */
@@ -209,3 +197,76 @@ header {
 .pure-g .pure-u-1-2.dine-block:first-child {
   border-right: 1px solid #fff;
 }
+
+/* slider */
+#slider.height {
+  height: 300px;
+  .swipe-wrap {
+    height: 100%;
+  }
+}
+
+.swipe {
+  margin-bottom: 0;
+  overflow: hidden;
+  position: relative;
+  visibility: hidden;
+  .swipe-wrap {
+    overflow: hidden;
+    position: relative;
+  }
+  .swipe-wrap > div {
+    float:left;
+    width:100%;
+    position: relative;
+    img {
+      width: 100%;
+    }
+    img.thumb-slide {
+      width: 100px;
+    }
+    h2,p {
+      color: #fff;
+    }
+    h2 {
+      margin-top: 15px;
+    }
+    ul {
+      color: #fff;
+      list-style: initial;
+      padding-left: 18px;
+      li {
+        color: #fff;
+      }
+    }
+    div.thumb-box {
+      display: inline-block;
+      margin-left: 10px;
+      position: absolute;
+      top: -20px;
+    }
+  }
+}
+
+#position {
+  padding:0;
+  text-align: center;
+  width: 100%;
+  li {
+    color: #fff;
+    display: inline-block;
+    &.on {
+    }
+    img {
+      width: 100%;
+    }
+    span {
+      color: #fff;
+      font-size: 10px;
+    }
+    span.icon-circle {
+      color: #fff;
+    }
+  }
+}
+

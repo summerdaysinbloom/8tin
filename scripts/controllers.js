@@ -29,5 +29,24 @@ app
 .controller('DineoutCtrl', ['$scope', '$timeout', 
     function($scope, $timeout) {
         console.log('DineoutCtrl');
+        
+        var slider =
+            Swipe(document.getElementById('slider'), {
+                auto: false,
+                continuous: true,
+                disableScroll: false,
+                stopPropagation: false,
+                speed: 400,
+                callback: function(pos) {
+                    // var i = bullets.length;
+                    // while (i--) {
+                    //     bullets[i].className = 'icon-circle-blank';
+                    // }
+                    // bullets[pos].className = 'icon-circle';
+                }
+            });
+      
+        var bullets = document.getElementById('position').getElementsByTagName('span');
+
     }
 ]);

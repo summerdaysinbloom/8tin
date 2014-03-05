@@ -13,7 +13,7 @@
   <meta name='keywords' property='og:keywords' content='{{keywords}}'>
   <meta name='description' property='og:description' content='{{description}}'>
   <meta name='copyright' content='demo'>  
-  <!-- <link rel='shortcut icon' href='favicon.ico'> -->
+  <link rel='shortcut icon' href='favicon.ico'>
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
   <!-- build:css(.tmp) styles/main.css -->
@@ -56,27 +56,8 @@
   <script src='scripts/controllers.js'></script>
   <script src='scripts/directives.js'></script>
   <script src='scripts/filters.js'></script>
-
-  <!-- modernizr html5 video -->
-  <script src='lib/js/modernizr.html5video.js'></script>
-  <!-- from giphy.com -->
-  <!--<script>var _giphy = _giphy || []; _giphy.push({id: 'ArJIdoKqGR3Ec',w: 500, h: 500});var g = document.createElement('script'); g.type = 'text/javascript'; g.async = true;g.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'giphy.com/static/js/widgets/embed.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(g, s);</script>-->
-
-  <!-- mobile detection -->
-  <script>
-      var _giphy = _giphy || []; 
-      _giphy.push({id: 'ArJIdoKqGR3Ec',w: 500, h: 500});
-      var g = document.createElement('script');
-            
-      g.type = 'text/javascript'; 
-      g.async = true;
-      g.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'giphy.com/static/js/widgets/embed.js';
-      
-      var s = document.getElementsByTagName('script')[0]; 
-      
-      function func() {          
-          s.parentNode.insertBefore(g, s);
-      }
-  </script>
+  <!-- swipe -->
+  <script src='lib/js/jquery.min.2.0.3.js'></script>
+  <script src='lib/js/swipe.js'></script>
 </body>
 </html>
