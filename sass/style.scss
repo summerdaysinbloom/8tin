@@ -226,6 +226,9 @@ header {
     border-right: 1px solid #ccc;
     padding: 1.0em;
     text-align: center;
+    &:last-child {
+      border-right: none;
+    }
   }
 }
 /* slider */
