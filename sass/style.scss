@@ -210,9 +210,22 @@ header {
 }
 
 .page-btn {
-  height: 20px;
+  height: 40px;
   @include horizontal-center();
   @include vertical-center();
+  span {
+    border: 1px solid #000;
+    border-radius: 100px;
+    padding: 20px;
+  }
+}
+
+.page-btn:nth-child(2) {
+  span {
+    border: none;
+    border-radius: 100px;
+    padding: 20px;
+  }
 }
 
 .pure-g .pure-u-1-2.dine-block:first-child {
