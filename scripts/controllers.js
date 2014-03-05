@@ -24,6 +24,15 @@ app
 .controller('DineinCtrl',['$scope', '$location',
 	function($scope, $location) {
 		console.log('DineinCtrl');
+
+        window.slider = new Swipe(document.getElementById('slider'), {
+            auto: false,
+            continuous: true,
+            disableScroll: false,
+            speed: 300,
+            startSlide: 1,
+            stopPropagation: false,
+        });
 	}
 ])
 .controller('DineoutCtrl', ['$scope', '$timeout', 
@@ -31,13 +40,13 @@ app
         console.log('DineoutCtrl');
 
         window.slider = new Swipe(document.getElementById('slider'), {
-          auto: false,
-          continuous: true,
-          disableScroll: false,
-          speed: 300,
-          startSlide: 1,
-          stopPropagation: false,
-      });
+            auto: false,
+            continuous: true,
+            disableScroll: false,
+            speed: 300,
+            startSlide: 1,
+            stopPropagation: false,
+        });
 
         // var slider =
         //     Swipe(document.getElementById('slider'), {

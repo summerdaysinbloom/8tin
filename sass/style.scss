@@ -139,11 +139,19 @@ ul {
   padding: 1.5em 0em;
 }
 
+.i-box {
+  padding: 1.0em 0;
+  h2 {
+    padding-left: 1.0em;
+  }
+}
+
 /* background image and snow image */
 a {
   text-decoration: none;
   color: #000;
 }
+
 a:hover,
 a:active {
   -webkit-tap-highlight-color: #fff;
@@ -194,10 +202,24 @@ header {
   }
 }
 
+.page-btn {
+  height: 20px;
+  @include horizontal-center();
+  @include vertical-center();
+}
+
 .pure-g .pure-u-1-2.dine-block:first-child {
   border-right: 1px solid #ccc;
 }
 
+.list-info {
+  padding: 1.0em;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  li {
+    text-align: center;
+  }
+}
 /* slider */
 #slider.height {
   height: 200px;
