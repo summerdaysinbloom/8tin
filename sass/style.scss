@@ -172,9 +172,12 @@ header {
   p:nth-child(3) {
     text-align: right;
   }
-  a:hover,
-  a:active  {
-    -webkit-tap-highlight-color: #fff;
+  p {
+    a,
+    a:hover,
+    a:active  {
+      -webkit-tap-highlight-color: #fff;
+    }
   }
 }
 
@@ -196,6 +199,11 @@ header {
 .dine-block {
   @include horizontal-center();
   @include vertical-center();
+  a,
+  a:hover,
+  a:active  {
+    -webkit-tap-highlight-color: #fdd;
+  }
 }
 
 .pure-g .pure-u-1-2.dine-block:first-child {
