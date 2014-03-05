@@ -209,6 +209,10 @@ header {
 .image-wrapper {
   height: 300px;
   overflow: hidden;
+  img {
+    height: 100%;
+    width: auto;
+  }
 }
 
 
