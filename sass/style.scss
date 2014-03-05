@@ -156,6 +156,9 @@ a {
   text-decoration: none;
   color: #000;
 }
+a:hover {
+  -webkit-tap-highlight-color: none;
+}
 
 header {
   padding: 0.5em;
