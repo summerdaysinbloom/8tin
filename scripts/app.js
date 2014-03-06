@@ -7,32 +7,37 @@ var app = angular.module('ffApp', [
     'ngAnimate'
 ]);
 
-app.run(['$location', '$rootScope', '$timeout', function($location, $rootScope, $timeout) {
-    $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
-        // metadata
-        $rootScope.title = current.$$route.title;
-        $rootScope.keywords = current.$$route.keywords;        
-        $rootScope.description = current.$$route.description;
-
-        // Hidden footer effect on main page
-        
-
-        if($location.path() == '/dine-in') {
-            $rootScope.hideIn = true;
-        } else {
-            $rootScope.hideIn = false;
-        }
-        if($location.path() == '/dine-out') {
-            $rootScope.hideOut = true;
-        } else {
-            $rootScope.hideOut = false;
-        }
-        if($location.path() == '/') {
-            $rootScope.hideIn = true;
-            $rootScope.hideOut = true;
-        } 
-    });
-}]);
+app
+.run(['$templateCache', function($templateCache) {
+    $templateCache.put('change.html', '<p>Oh, you changed your mind !</p>');
+}])
+.run(['$location', '$rootScope', '$timeout', 
+    function($location, $rootScope, $timeout) {
+        $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
+            // metadata
+            $rootScope.title = current.$$route.title;
+            $rootScope.keywords = current.$$route.keywords;        
+            $rootScope.description = current.$$route.description;
+    
+            // Hidden footer effect on main page
+    
+            if($location.path() == '/dine-in') {
+                $rootScope.hideIn = true;
+            } else {
+                $rootScope.hideIn = false;
+            }
+            if($location.path() == '/dine-out') {
+                $rootScope.hideOut = true;
+            } else {
+                $rootScope.hideOut = false;
+            }
+            if($location.path() == '/') {
+                $rootScope.hideIn = true;
+                $rootScope.hideOut = true;
+            } 
+        });
+    }
+]);
 
 app.run(function($rootScope, $window) {
     // publish current transition direction on rootScope

@@ -24,6 +24,12 @@ app
 .controller('DineinCtrl',['$scope', '$timeout',
 	function($scope, $timeout) {
 		console.log('DineinCtrl');
+        
+        $scope.changedMind = 'false';
+
+        $timeout(function() {
+            $scope.changedMind = 'true';
+        }, 1000)
 
         $timeout(function() {
             console.log('asdf');

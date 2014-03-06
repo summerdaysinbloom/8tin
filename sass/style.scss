@@ -235,6 +235,12 @@ header {
     }
   }
 }
+
+#changedMind {
+  @include horizontal-center();
+  @include vertical-center();
+}
+
 /* slider */
 #slider.height {
   height: 200px;
