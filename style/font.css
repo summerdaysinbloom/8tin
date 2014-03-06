@@ -23,35 +23,35 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-volume-high:before {
+.icon-checkmark:before {
 	content: "\e600";
 }
-.icon-volume-mute:before {
+.icon-cancel:before {
 	content: "\e601";
 }
-.icon-play:before {
+.icon-checkmark2:before {
 	content: "\e602";
 }
-.icon-pencil:before {
+.icon-cancel2:before {
 	content: "\e603";
 }
-.icon-arrow-down:before {
+.icon-arrow-right:before {
 	content: "\e604";
+}
+.icon-arrow-left:before {
+	content: "\e606";
+}
+.icon-arrow-left2:before {
+	content: "\e607";
+}
+.icon-arrow-right2:before {
+	content: "\e608";
+}
+.icon-arrow-left22:before {
+	content: "\e60f";
 }
 .icon-uniE605:before {
 	content: "\e605";
-}
-.icon-arrow-down2:before {
-	content: "\e606";
-}
-.icon-cross:before {
-	content: "\e609";
-}
-.icon-list:before {
-	content: "\e60a";
-}
-.icon-layout:before {
-	content: "\e60b";
 }
 .icon-heart:before {
 	content: "\e60c";
@@ -59,12 +59,9 @@
 .icon-heart2:before {
 	content: "\e60d";
 }
-.icon-forward:before {
-	content: "\e60e";
+.icon-star:before {
+	content: "\e609";
 }
-.icon-arrow-left2:before {
-	content: "\e60f";
-}
-.icon-camera:before {
-	content: "\e613";
+.icon-star2:before {
+	content: "\e60a";
 }

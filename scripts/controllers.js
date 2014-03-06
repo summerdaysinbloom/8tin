@@ -55,7 +55,6 @@ app
         }, 1200)
 
         $timeout(function() {
-            console.log('asdf');
             window.slider = new Swipe(document.getElementById('slider'), {
                 auto: false,
                 continuous: true,
