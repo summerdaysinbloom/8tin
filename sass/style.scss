@@ -237,6 +237,12 @@ header {
     padding: 1.0em;
     text-align: center;
   }
+  li:first-child {
+    font-size: 0.8em;
+    text-transform: capitalize;
+    @include horizontal-center();
+    @include vertical-center();
+  }
   li span {
     font-size: 0.7em;
   }
