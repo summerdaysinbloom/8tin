@@ -48,6 +48,12 @@ app
     function($scope, $timeout) {
         console.log('DineoutCtrl');
 
+        $scope.changedMind = 'false';
+
+        $timeout(function() {
+            $scope.changedMind = 'true';
+        }, 1200)
+
         $timeout(function() {
             console.log('asdf');
             window.slider = new Swipe(document.getElementById('slider'), {
