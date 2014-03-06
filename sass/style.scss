@@ -214,6 +214,7 @@ header {
 
 .page-btn {
   height: 40px;
+  -webkit-tap-highlight-color: #fff;
   @include horizontal-center();
   @include vertical-center();
   span {
