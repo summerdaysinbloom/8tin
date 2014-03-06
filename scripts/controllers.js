@@ -28,11 +28,10 @@ app
         $scope.changedMind = 'false';
 
         $timeout(function() {
-            $scope.changedMind = 'true';
-        }, 1000)
+            // $scope.changedMind = 'true';
+        }, 1200)
 
         $timeout(function() {
-            console.log('asdf');
             window.slider = new Swipe(document.getElementById('slider'), {
                 auto: false,
                 continuous: true,
@@ -42,7 +41,7 @@ app
                 stopPropagation: false,
             });
                 
-        }, 800);
+        }, 1000);
 	}
 ])
 .controller('DineoutCtrl', ['$scope', '$timeout', 

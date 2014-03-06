@@ -9,7 +9,8 @@ var app = angular.module('ffApp', [
 
 app
 .run(['$templateCache', function($templateCache) {
-    $templateCache.put('change.html', '<p>Oh, you changed your mind !</p>');
+    // $templateCache.put('change.html', '<p>Oh, you changed your mind !</p>');
+    $templateCache.put('change.html', '<div class="spinner"><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div>');
 }])
 .run(['$location', '$rootScope', '$timeout', 
     function($location, $rootScope, $timeout) {
