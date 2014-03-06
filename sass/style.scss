@@ -316,9 +316,9 @@ header {
   margin: 0 auto;
   width: 30px;
   height: 30px;
-  padding: 10px;
   position: relative;
-  text-align: center;
+  @include horizontal-center();
+  @include vertical-center();
 }
 
 .container1 > div, .container2 > div, .container3 > div {
