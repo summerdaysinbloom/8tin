@@ -204,6 +204,8 @@ header {
 .dine-block {
   @include horizontal-center();
   @include vertical-center();
+  color: #000;
+  -webkit-tap-highlight-color: #fff;
   a,
   a:hover,
   a:active  {
