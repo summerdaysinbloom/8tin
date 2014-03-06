@@ -313,13 +313,10 @@ header {
 
 /* spinner */
 .spinner {
-  background: #fdd;
   margin: 0 auto;
   width: 20px;
   height: 20px;
   position: relative;
-  @include horizontal-center();
-  @include vertical-center();
 }
 
 .container1 > div, .container2 > div, .container3 > div {
