@@ -28,7 +28,7 @@ app
         $scope.changedMind = 'false';
 
         $timeout(function() {
-            // $scope.changedMind = 'true';
+            $scope.changedMind = 'true';
         }, 1200)
 
         $timeout(function() {
