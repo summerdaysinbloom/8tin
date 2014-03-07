@@ -189,17 +189,14 @@ header {
 }
 
 #containter {
-  /*height: 100%;*/
-  .pure-u-1 {
-    /*height: inherit;*/
-  }
+  height: 100%;
 }
 
-#containter .pure-u-1 {
-  /*height: inherit;*/
+#seletor.pure-u-1 {
+  height: inherit;
   .pure-g {
-    /*height: inherit;*/
-  }
+    height: inherit;
+  }  
 }
 
 #containter .pure-u-1 .pure-g.slider-btn {
