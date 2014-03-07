@@ -335,10 +335,12 @@ header {
 }*/
 
 #sticky-btn {
+  background: #fff;
   border-top: 1px solid #000;
   bottom: 0;
   position: fixed;
   width: 100%;
+  z-index: 10000;
 } 
 
 
