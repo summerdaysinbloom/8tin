@@ -201,6 +201,10 @@ header {
   }
 }
 
+#containter .pure-u-1 .pure-g.slider-btn {
+  height: 40px;
+}
+
 .dine-block {
   @include horizontal-center();
   @include vertical-center();
@@ -232,6 +236,7 @@ header {
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;
   color: #aaa;
+  position: relative;
   li {
     border-left: 1px solid #ccc;
     padding: 1.0em;
@@ -246,6 +251,11 @@ header {
   li span {
     font-size: 0.7em;
   }
+}
+
+.tab-info {
+  bottom: 0;
+  position: absolute; 
 }
 
 #changedMind {
