@@ -334,6 +334,15 @@ header {
   }
 }*/
 
+#sticky-btn {
+  border-top: 1px solid #000;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+} 
+
+
+
 /* spinner */
 .spinner {
   margin: 0 auto;
