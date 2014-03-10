@@ -24,17 +24,22 @@ app
     
             if($location.path() == '/dine-in') {
                 $rootScope.hideIn = true;
+                $rootScope.hideStickyBar = false;
             } else {
                 $rootScope.hideIn = false;
+                $rootScope.hideStickyBar = false;
             }
             if($location.path() == '/dine-out') {
                 $rootScope.hideOut = true;
+                $rootScope.hideStickyBar = false;
             } else {
                 $rootScope.hideOut = false;
+                $rootScope.hideStickyBar = false;
             }
             if($location.path() == '/') {
                 $rootScope.hideIn = true;
                 $rootScope.hideOut = true;
+                $rootScope.hideStickyBar = true;
             } 
         });
     }
