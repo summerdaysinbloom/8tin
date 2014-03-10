@@ -14,7 +14,7 @@ module.exports = function(grunt) {
             combine: {
                 files: {
                     'style/style.min.css': [
-                        // 'style/font.css',
+                        'style/font.css',
                         'style/style.css'
                     ]
                 }
@@ -26,7 +26,8 @@ module.exports = function(grunt) {
                     style: 'compressed'
                 },
                 files: {
-                    'style/style.css' : 'sass/style.scss'                    
+                    'style/font.css' : 'sass/font.scss',
+                    'style/style.css' : 'sass/style.scss'
                 }
             }
         },
