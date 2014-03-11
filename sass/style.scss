@@ -163,10 +163,13 @@ a {
   color: #000;
 }
 
+* {
+  -webkit-tap-highlight-color: rgba(255,255,255,0);
+}
+
 a:hover,
 a:active {
   color: #000;
-  -webkit-tap-highlight-color: rgba(255,255,255,0);
 }
 
 header {
@@ -186,6 +189,7 @@ header {
     a:hover,
     a:active  {
       color: #000;
+      -webkit-tap-highlight-color: rgba(255,255,255,0);
     }
   }
 }
@@ -209,10 +213,10 @@ header {
   @include horizontal-center();
   @include vertical-center();
   color: #000;
+  -webkit-tap-highlight-color: rgba(255,255,255,0);
   a,
   a:hover,
   a:active  {
-    color: #000;
     -webkit-tap-highlight-color: rgba(255,255,255,0);
   }
 }
@@ -322,11 +326,6 @@ ul.i-box li {
   a {
     display: block;
     padding: 1em;
-  }
-  a:hover,
-  a:active {
-    color: #000;
-    -webkit-tap-highlight-color: rgba(255,255,255,0);
   }
   &:nth-child(2),
   &:nth-child(3) {
