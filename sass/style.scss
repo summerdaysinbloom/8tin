@@ -329,6 +329,13 @@ ul.i-box li {
   a:active {
     color: #000;
   }
+  &:nth-child(2),
+  &:nth-child(3) {
+    background: #eee;
+  }
+  &:nth-child(2) {
+    /*border-bottom-color: #fff;*/
+  }
 }
 
 .location {
