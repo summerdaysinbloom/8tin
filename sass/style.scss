@@ -325,6 +325,10 @@ ul.i-box li {
     display: block;
     padding: 1em;
   }
+  a:hover,
+  a:active {
+    color: #000;
+  }
 }
 
 .location {
