@@ -166,7 +166,7 @@ a {
 a:hover,
 a:active {
   color: #000;
-  -webkit-tap-highlight-color: #fff;
+  -webkit-tap-highlight-color: rgba(255,255,255,0);
 }
 
 header {
@@ -186,7 +186,6 @@ header {
     a:hover,
     a:active  {
       color: #000;
-      -webkit-tap-highlight-color: #fff;
     }
   }
 }
@@ -210,7 +209,6 @@ header {
   @include horizontal-center();
   @include vertical-center();
   color: #000;
-  -webkit-tap-highlight-color: rgba(255,255,255,0);
   a,
   a:hover,
   a:active  {
@@ -221,7 +219,7 @@ header {
 
 .page-btn {
   height: 40px;
-  -webkit-tap-highlight-color: #fff;
+  -webkit-tap-highlight-color: rgba(255,255,255,0);
   @include horizontal-center();
   @include vertical-center();
   span {
@@ -328,7 +326,7 @@ ul.i-box li {
   a:hover,
   a:active {
     color: #000;
-    -webkit-tap-highlight-color: #e7e6eb;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
   }
   &:nth-child(2),
   &:nth-child(3) {
