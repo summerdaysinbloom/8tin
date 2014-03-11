@@ -328,6 +328,7 @@ ul.i-box li {
   a:hover,
   a:active {
     color: #000;
+    -webkit-tap-highlight-color: #e7e6eb;
   }
   &:nth-child(2),
   &:nth-child(3) {
