@@ -320,7 +320,7 @@ header {
 } 
 
 ul.i-box li {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #dbdbdb;
   a {
     display: block;
     padding: 1em;
@@ -331,10 +331,10 @@ ul.i-box li {
   }
   &:nth-child(2),
   &:nth-child(3) {
-    background: #eee;
+    background: #e7e6eb;
   }
-  &:nth-child(2) {
-    /*border-bottom-color: #fff;*/
+  &:nth-child(3) { 
+    border-top: 1px solid #fff;
   }
 }
 
@@ -343,6 +343,7 @@ ul.i-box li {
   display: inline;
   float: right;
   text-align: right;
+  text-shadow: 0 1px 0 rgba(255,255,255, 0.7);
 }
 
 .promotions {
