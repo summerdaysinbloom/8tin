@@ -184,14 +184,14 @@ header {
   p:nth-child(3) {
     text-align: right;
   }
-  p {
+  /*p {
     a,
     a:hover,
     a:active  {
       color: #000;
       -webkit-tap-highlight-color: rgba(255,255,255,0);
     }
-  }
+  }*/
 }
 
 #containter {
@@ -213,11 +213,11 @@ header {
   @include horizontal-center();
   @include vertical-center();
   color: #000;
-  -webkit-tap-highlight-color: rgba(255,255,255,0);
+  /*-webkit-tap-highlight-color: rgba(255,255,255,0);*/
   a,
   a:hover,
   a:active  {
-    -webkit-tap-highlight-color: rgba(255,255,255,0);
+    /*-webkit-tap-highlight-color: rgba(255,255,255,0);*/
   }
 }
 
