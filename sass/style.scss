@@ -277,7 +277,6 @@ header {
   }
 }
 
-
 #slider div b {
   display:block;
   font-weight:bold;
@@ -308,29 +307,6 @@ header {
   position: relative;
 }
 
-/*
-#position {
-  padding:0;
-  text-align: center;
-  width: 100%;
-  li {
-    color: #fff;
-    display: inline-block;
-    &.on {
-    }
-    img {
-      width: 100%;
-    }
-    span {
-      color: #fff;
-      font-size: 10px;
-    }
-    span.icon-circle {
-      color: #fff;
-    }
-  }
-}*/
-
 #sticky-btn {
   background: #fff;
   border-top: 1px solid #000;
@@ -340,6 +316,10 @@ header {
   z-index: 10000;
 } 
 
+ul.i-box li {
+  border-top: 1px solid #ddd;
+  padding: 1.0em;
+}
 /* spinner */
 .spinner {
   margin: 0 auto;
