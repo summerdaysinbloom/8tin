@@ -23,12 +23,6 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-checkmark:before {
-	content: "\e600";
-}
-.icon-cancel:before {
-	content: "\e601";
-}
 .icon-checkmark2:before {
 	content: "\e602";
 }
@@ -36,7 +30,16 @@
 	content: "\e603";
 }
 .icon-cake:before {
+	content: "\e600";
+}
+.icon-position:before {
+	content: "\e601";
+}
+.icon-map:before {
 	content: "\e60b";
+}
+.icon-grid:before {
+	content: "\e60e";
 }
 .icon-arrow-right:before {
 	content: "\e604";
@@ -51,15 +54,12 @@
 	content: "\e608";
 }
 .icon-coin:before {
-	content: "\e60e";
-}
-.icon-map:before {
 	content: "\e610";
 }
-.icon-phone:before {
+.icon-location:before {
 	content: "\e611";
 }
-.icon-location:before {
+.icon-location2:before {
 	content: "\e612";
 }
 .icon-arrow-left22:before {
@@ -79,4 +79,10 @@
 }
 .icon-star2:before {
 	content: "\e60a";
+}
+.icon-directions:before {
+	content: "\e615";
+}
+.icon-phone:before {
+	content: "\e616";
 }
