@@ -147,8 +147,9 @@ ul {
 .i-box {
   padding: 0;
   h2 {
+    color: #000;
     font-size: 1.33em;
-    padding-left: 0.7em;
+    margin: 0;
     span {
       color: #ccc;
       float: right;
@@ -156,6 +157,15 @@ ul {
       padding-right: 1.5em;
       padding-top: 0.8em;
     }
+  }
+  h3 {
+    font-size: 1.0em;
+  }
+  h2 ,
+  h3 {
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+    padding: .7em 0 .7em .7em;
   }
 }
 
@@ -242,7 +252,6 @@ header {
 
 .list-info {
   border-bottom: 1px solid #ccc;
-  border-top: 1px solid #ccc;
   color: #aaa;
   position: relative;
   li {
@@ -259,6 +268,10 @@ header {
   li span {
     font-size: 0.7em;
   }
+}
+
+.detail-info {
+
 }
 
 .tab-info {
@@ -470,4 +483,30 @@ ul.i-box li {
     transform: scale(1.0);
     -webkit-transform: scale(1.0);
   }
+}
+
+#detail {
+  width: 100%;
+  height: 150px;
+  background-color: #fff;
+  -webkit-transition: 0.4s all ease-out;
+  -moz-transition: 0.4s all ease-out;
+  -o-transition: 0.4s all ease-out;
+  transition: 0.4s all ease-out;
+}
+
+#detail.ng-hide-add, 
+#detail.ng-hide-remove
+{
+  display: block !important; 
+}
+
+#detail.ng-hide-remove, 
+#detail.ng-hide-add.ng-hide-add-active{
+  margin-top: -150px;
+}
+
+#detail.ng-hide-remove.ng-hide-remove-active, 
+#detail.ng-hide-add{
+  margin-top: 0;
 }

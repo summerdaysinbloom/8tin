@@ -33,11 +33,21 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <header class='pure-g'>
+  <!-- demo1 -->
+
+  <!-- <header class='pure-g'>
     <p class='pure-u-1-3'><a ng-hide='hideIn' href='#/dine-in'><span class='icon-rocket'></span> Delivery</a></p>
     <p class='pure-u-1-3'><a href='#/'><span class='icon-cake'></span></a></p>
     <p class='pure-u-1-3'><a ng-hide='hideOut' href='#/dine-out'>Eat out <span class='icon-food2'></span></a></p>
+  </header>-->
+
+  <header class='pure-g'>
+    <p class='pure-u-1-3'><a ng-hide='hideIn' href='#/delivery'><span class='icon-rocket'></span> Delivery</a></p>
+    <p class='pure-u-1-3'><a href='#/main'><span class='icon-cake'></span></a></p>
+    <p class='pure-u-1-3'><a ng-hide='hideOut' href='#/eatout'>Eat out <span class='icon-food2'></span></a></p>
   </header>
+
+
   <div class='view-animate-container' ng-class='direction'>
     <div ng-view class='view-animate pure-g-r' id='containter' ng-cloak></div>
   </div>

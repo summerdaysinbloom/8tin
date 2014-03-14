@@ -40,6 +40,28 @@ app
                 $rootScope.hideIn = true;
                 $rootScope.hideOut = true;
                 $rootScope.hideStickyBar = true;
+            }
+
+            //  demo2
+
+            if($location.path() == '/delivery') {
+                $rootScope.hideIn = true;
+                $rootScope.hideStickyBar = false;
+            } else {
+                $rootScope.hideIn = false;
+                $rootScope.hideStickyBar = false;
+            }
+            if($location.path() == '/eatout') {
+                $rootScope.hideOut = true;
+                $rootScope.hideStickyBar = false;
+            } else {
+                $rootScope.hideOut = false;
+                $rootScope.hideStickyBar = false;
+            }
+            if($location.path() == '/main') {
+                $rootScope.hideIn = true;
+                $rootScope.hideOut = true;
+                $rootScope.hideStickyBar = true;
             } 
         });
     }
@@ -72,7 +94,7 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
     // $locationProvider.html5Mode(true);
 
     $routeProvider
-	   .when('/', {
+	    .when('/', {
             templateUrl: 'views/main.html',
             controller: 'MainCtrl',
             depth: 2,
@@ -96,7 +118,31 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
             keywords: '',
             description: ''
         })
+        .when('/main', {
+            templateUrl: 'views/main2.html',
+            controller: 'Main2Ctrl',
+            depth: 2,
+            title: 'DEMO',
+            keywords: 'DEMO',
+            description: 'DEMO'
+        })
+        .when('/delivery', {
+            templateUrl: 'views/delivery.html',
+            controller: 'DeliverCtrl',
+            depth: 1,
+            title: '',
+            keywords: '',
+            description: ''
+        })
+        .when('/eatout', {
+            templateUrl: 'views/eatout.html',
+            controller: 'EatoutCtrl',
+            depth: 3,
+            title: '',
+            keywords: '',
+            description: ''
+        })
 	   .otherwise({
-        	redirectTo: '/'
+        	redirectTo: '/main'
         });
     }]);
