@@ -9,19 +9,20 @@
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <meta name='viewport' content='initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width'>
-  <title ng-bind='title'>Guinness | MADE OF MORE</title>
+  <title ng-bind='title'>DEMO</title>
   <meta name='keywords' property='og:keywords' content='{{keywords}}'>
   <meta name='description' property='og:description' content='{{description}}'>
-  <meta name='copyright' content='Guinness'>  
+  <meta name='copyright' content='demo'>  
   <link rel='shortcut icon' href='favicon.ico'>
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
   <!-- build:css(.tmp) styles/main.css -->
   <link rel='stylesheet' href='lib/css/pure.min.css'>
   <link rel='stylesheet' href='style/style.min.css'>
+  <!-- <link rel='stylesheet' href='style/font.css'> -->
   <!-- endbuild -->
 </head>
-<body data-ng-app='fingerApp'>
+<body data-ng-app='ffApp'>
   <!--[if lt IE 7]>
     <p class='browsehappy'>You are using an <strong>outdated</strong> browser. Please <a href='http://browsehappy.com/'>upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
@@ -32,23 +33,34 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
+  <!-- demo1 -->
+
+  <!-- <header class='pure-g'>
+    <p class='pure-u-1-3'><a ng-hide='hideIn' href='#/dine-in'><span class='icon-rocket'></span> Delivery</a></p>
+    <p class='pure-u-1-3'><a href='#/'><span class='icon-cake'></span></a></p>
+    <p class='pure-u-1-3'><a ng-hide='hideOut' href='#/dine-out'>Eat out <span class='icon-food2'></span></a></p>
+  </header>-->
+
   <header class='pure-g'>
-    <p class='pure-u-1-3'><a ng-hide='hideIn' href='#/dine-in'>In</a></p>
-    <p class='pure-u-1-3'><a href='#/'>Main</a></p>
-    <p class='pure-u-1-3'><a ng-hide='hideOut' href='#/dine-out'>Out</a></p>
+    <p class='pure-u-1-3'><a ng-hide='hideIn' href='#/delivery'><span class='icon-rocket'></span> Delivery</a></p>
+    <p class='pure-u-1-3'><a href='#/main'><span class='icon-cake'></span></a></p>
+    <p class='pure-u-1-3'><a ng-hide='hideOut' href='#/eatout'>Eat out <span class='icon-food2'></span></a></p>
   </header>
+
+
   <div class='view-animate-container' ng-class='direction'>
     <div ng-view class='view-animate pure-g-r' id='containter' ng-cloak></div>
   </div>
-  <div id='nav-terms' class='pure-u-1 pure-hidden-phone' ng-hide='hideFooter'>
-    <div class='pure-g'>
-      <a class='pure-u-1-3'>Terms & Condition</a>
-      <a class='pure-u-1-3' href='#/'><h1 id='nav-logo'>Guinness</h1></a>
-      <a class='pure-u-1-3'><span class='icon-volume-high'></span></a>
+
+  <div class='pure-g-r' ng-hide='hideStickyBar'>
+    <div class='pure-u-1' id='sticky-btn'>
+      <div class='pure-g slider-btn'>
+        <p class='pure-u-1-3 page-btn' onclick='slider.prev()'><span class='icon-arrow-left22'></span></p>
+        <p class='pure-u-1-3 page-btn'><span class='icon-heart2'></span></p>
+        <p class='pure-u-1-3 page-btn' onclick='slider.next()'><span class='icon-uniE605'></span></p>
+      </div>
     </div>
   </div>
-  <!-- 
-  <div id='playBtn' ng-hide='hidePlayerBtn' class='pure-u-1 pure-hidden-desktop pure-hidden-tablet'><a href='#/landing'>play video</a></div> -->
 
   <!-- 3rd party -->
   <!-- // <script src='lib/js/jquery.min.js'></script> -->
@@ -65,27 +77,8 @@
   <script src='scripts/controllers.js'></script>
   <script src='scripts/directives.js'></script>
   <script src='scripts/filters.js'></script>
-
-  <!-- modernizr html5 video -->
-  <script src='lib/js/modernizr.html5video.js'></script>
-  <!-- from giphy.com -->
-  <!--<script>var _giphy = _giphy || []; _giphy.push({id: 'ArJIdoKqGR3Ec',w: 500, h: 500});var g = document.createElement('script'); g.type = 'text/javascript'; g.async = true;g.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'giphy.com/static/js/widgets/embed.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(g, s);</script>-->
-
-  <!-- mobile detection -->
-  <script>
-      var _giphy = _giphy || []; 
-      _giphy.push({id: 'ArJIdoKqGR3Ec',w: 500, h: 500});
-      var g = document.createElement('script');
-            
-      g.type = 'text/javascript'; 
-      g.async = true;
-      g.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'giphy.com/static/js/widgets/embed.js';
-      
-      var s = document.getElementsByTagName('script')[0]; 
-      
-      function func() {          
-          s.parentNode.insertBefore(g, s);
-      }
-  </script>
+  <!-- swipe -->
+  <script src='lib/js/jquery.min.2.0.3.js'></script>
+  <script src='lib/js/swipe.js'></script>
 </body>
 </html>
