@@ -307,9 +307,14 @@ header {
   margin-bottom: 0px;
 }
 
-#menu-detail ul {
-  li {
-    padding: 1.0em;
+#menu-detail > ul {
+  > li {
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 1px 0 rgba(255,255,255,1);
+    a {
+      display: block;
+      padding: 1.0em;
+    }
   }
   li#menu-detail-map a {
     span, 
@@ -320,6 +325,12 @@ header {
       display: inline;
       position: absolute;
       right: 1.0em;
+    }
+  }
+  li#menu-detail-addr {
+    .postcode {
+      float: right;
+      font-size: .813em;
     }
   }
 }
