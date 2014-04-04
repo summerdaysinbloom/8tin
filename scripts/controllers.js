@@ -30,6 +30,10 @@ app
             });
                 
         }, 1000);
+
+        $scope.showMenu() = function() {
+            console.log('show menu');
+        }
     }
 ])
 .controller('NearbyCuisineCtrl' ['$scope', '$location', '$http',

@@ -53,9 +53,14 @@
     <div ng-view class='view-animate pure-g-r' id='containter' ng-cloak></div>
   </div>
 
-  <div class='pure-g' ng-hide='hideStickyBar' id='sticky-btn'>
-    <a class='pure-u-1-2 page-btn' onclick='slider.prev()'><span class='icon-arrow-left22'></span></a>
-    <a class='pure-u-1-2 page-btn' onclick='slider.next()'><span class='icon-uniE605'></span></a>
+  <div class='pure-g' ng-class="{withmenu: showMenu == true}" ng-hide='hideStickyBar' id='sticky-btn'>
+    <a class='pure-u-1-3 page-btn' onclick='slider.prev()'><span class='icon-arrow-left22'></span></a>
+    <a class='pure-u-1-3 page-btn' ng-click='showMenu = !showMenu' id='showMenuBtn'><span class='icon-list'></span></a>
+    <a class='pure-u-1-3 page-btn' onclick='slider.next()'><span class='icon-uniE605'></span></a>
+  </div>
+
+  <div id='menu-detail' ng-show='showMenu'>
+    showMenu
   </div>
 
   <!-- 3rd party -->
