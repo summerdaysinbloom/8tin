@@ -30,14 +30,29 @@ app
             });
                 
         }, 1000);
-
-        $scope.showMenu() = function() {
-            console.log('show menu');
-        }
     }
 ])
-.controller('NearbyCuisineCtrl' ['$scope', '$location', '$http',
-    function($scope, $location, $http) {
+.controller('NearbyCuisineCtrl',['$scope', '$timeout',
+    function($scope, $timeout) {
+        console.log('[C] NearbyCuisineCtrl');
+        
+        $scope.changedMind = 'false';
+
+        $timeout(function() {
+            $scope.changedMind = 'true';
+        }, 1200)
+
+        $timeout(function() {
+            window.slider = new Swipe(document.getElementById('slider'), {
+                auto: false,
+                continuous: true,
+                disableScroll: false,
+                speed: 300,
+                // startSlide: 1,
+                stopPropagation: false,
+            });
+                
+        }, 1000);
     }
 ])
 .controller('DineinCtrl',['$scope', '$timeout',
