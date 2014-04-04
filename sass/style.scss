@@ -216,8 +216,22 @@ header {
   }
 }
 
-#containter {
+#container {
   height: 100%;
+  #slider .swipe-wrap .image-wrapper img {
+    margin-top: 0;
+    -webkit-transition: 0.2s margin-top ease-out;
+    -moz-transition: 0.2s margin-top ease-out;
+    -o-transition: 0.2s margin-top ease-out;
+    transition: 0.2s margin-top ease-out;
+  }
+  &.withdetails #slider .swipe-wrap .image-wrapper img {
+    margin-top: -20%;
+    -webkit-transition: 0.2s margin-top ease-out;
+    -moz-transition: 0.2s margin-top ease-out;
+    -o-transition: 0.2s margin-top ease-out;
+    transition: 0.2s margin-top ease-out;
+  }
 }
 
 #seletor.pure-u-1 {
@@ -225,54 +239,6 @@ header {
   .pure-g {
     height: inherit;
   }  
-}
-
-.dine-block {
-  @include horizontal-center();
-  @include vertical-center();
-  color: #000;
-  a,
-  a:hover,
-  a:active  {
-  }
-}
-
-.pure-g .pure-u-1-2.dine-block:first-child {
-  border-right: 1px solid #ccc;
-}
-
-.list-info {
-  border-bottom: 1px solid #ccc;
-  color: #aaa;
-  position: relative;
-  li {
-    border-left: 1px solid #ccc;
-    padding: 1.0em;
-    text-align: center;
-  }
-  li:first-child {
-    font-size: 0.8em;
-    text-transform: capitalize;
-    @include horizontal-center();
-    @include vertical-center();
-  }
-  li span {
-    font-size: 0.7em;
-  }
-}
-
-.detail-info {
-
-}
-
-.tab-info {
-  bottom: 0;
-  position: absolute; 
-}
-
-#changedMind {
-  @include horizontal-center();
-  @include vertical-center();
 }
 
 /* slider */
@@ -306,30 +272,23 @@ header {
   bottom: 0;
   height: 60px;
   bottom: 280px;
-  -webkit-transition: 0.6s bottom ease-out;
-  -moz-transition: 0.6s bottom ease-out;
-  -o-transition: 0.6s bottom ease-out;
-  transition: 0.6s bottom ease-out;
+  -webkit-transition: 0.3s bottom ease-out;
+  -moz-transition: 0.3s bottom ease-out;
+  -o-transition: 0.3s bottom ease-out;
+  transition: 0.3s bottom ease-out;
 }
 
 #menu-detail {
   background: #fff;
   height: 300px;
+  overflow-y: scroll;
   position: fixed;
   bottom: -20px;
   width: 100%;
-  -webkit-transition: 0.4s all ease-out;
-  -moz-transition: 0.4s all ease-out;
-  -o-transition: 0.4s all ease-out;
-  transition: 0.4s all ease-out;
-}
-
-
-#menu-detail {
-  -webkit-transition: 0.4s all ease-out;
-  -moz-transition: 0.4s all ease-out;
-  -o-transition: 0.4s all ease-out;
-  transition: 0.4s all ease-out;
+  -webkit-transition: 0.3s all ease-out;
+  -moz-transition: 0.3s all ease-out;
+  -o-transition: 0.3s all ease-out;
+  transition: 0.3s all ease-out;
 }
 
 #menu-detail.ng-hide-add, 
@@ -345,7 +304,24 @@ header {
 
 #menu-detail.ng-hide-remove.ng-hide-remove-active, 
 #menu-detail.ng-hide-add{
-  margin-bottom: 0;
+  margin-bottom: 0px;
+}
+
+#menu-detail ul {
+  li {
+    padding: 1.0em;
+  }
+  li#menu-detail-map a {
+    span, 
+    p {
+      display: inline;
+    }
+    p {
+      display: inline;
+      position: absolute;
+      right: 0;
+    }
+  }
 }
 
 .page-btn {
@@ -364,30 +340,6 @@ header {
   /*border: 10px solid rgba(255,255,255,.9);*/
   color: #fff;
 }
-
-/*#containter .pure-u-1 .pure-g.slider-btn {
-  height: 100px;
-  position: absolute;
-  bottom: 0;
-color: red;
-left: 0;
-right: 0;
-background: transparent;  
-}
-
-.page-btn {
-  -webkit-tap-highlight-color: rgba(255,255,255,0);
-  @include horizontal-center();
-  @include vertical-center();
-  span {
-    color: #aaa;
-  }
-  p {
-    background: none;
-    border: 3px solid rgba(255,255,255,.6);
-    padding: 20px;
-  }
-}*/
 
 #slider div b {
   display:block;
@@ -427,7 +379,9 @@ background: transparent;
   position: relative;
 }
 
-.container1 > div, .container2 > div, .container3 > div {
+.container1 > div, 
+.container2 > div, 
+.container3 > div {
   width: 6px;
   height: 6px;
   background-color: #ccc;
@@ -530,30 +484,4 @@ background: transparent;
     transform: scale(1.0);
     -webkit-transform: scale(1.0);
   }
-}
-
-#detail {
-  width: 100%;
-  height: 150px;
-  background-color: #fff;
-  -webkit-transition: 0.4s all ease-out;
-  -moz-transition: 0.4s all ease-out;
-  -o-transition: 0.4s all ease-out;
-  transition: 0.4s all ease-out;
-}
-
-#detail.ng-hide-add, 
-#detail.ng-hide-remove
-{
-  display: block !important; 
-}
-
-#detail.ng-hide-remove, 
-#detail.ng-hide-add.ng-hide-add-active{
-  margin-top: -150px;
-}
-
-#detail.ng-hide-remove.ng-hide-remove-active, 
-#detail.ng-hide-add{
-  margin-top: 0;
 }

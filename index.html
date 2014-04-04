@@ -50,7 +50,7 @@
   </header>
 
   <div class='view-animate-container' ng-class='direction'>
-    <div ng-view class='view-animate pure-g-r' id='containter' ng-cloak></div>
+    <div ng-view class='view-animate pure-g-r' id='container' ng-cloak ng-class="{withdetails: showMenu == true}" >></div>
   </div>
 
   <div class='pure-g' ng-class="{withmenu: showMenu == true}" ng-hide='hideStickyBar' id='sticky-btn'>
@@ -60,7 +60,35 @@
   </div>
 
   <div id='menu-detail' ng-show='showMenu'>
-    showMenu
+    <ul class='i-box'>
+      <li class='pure-u-1'>
+        <a>
+          <span class='icon-directions'></span> Address
+          <p>Clarke Quay 3E River Valley Rd</p>
+          <p>Singapore 179024</p>
+        </a>
+      </li>
+      <li class='pure-u-1' id='menu-detail-map'>
+        <a href='https://www.google.com.sg/maps/place/Clarke+Quay/@1.2909355,103.8454321,17z/data=!3m1!4b1!4m2!3m1!1s0x31da19a038007c9d:0x20e5acd1e8ccf02'>
+          <span class='icon-map'></span> Show map 
+          <p class='location'> 0.5km <span class='icon-location'></span></p>
+        </a>
+      </li>
+      <li class='pure-u-1'><a href='tel:+6597329504'><span class='icon-phone'></span> Call +65 9732 9504</a></li>
+      <li class='pure-u-1'><span class='icon-uniF7A8'></span> Menu
+        <ul>
+          <li><p>dish_name</p></li>
+          <li><p>dish_name</p></li>
+          <li><p>dish_name</p></li>
+          <li><p>dish_name</p></li>
+          <li><p>dish_name</p></li>
+          <li><p>dish_name</p></li>
+          <li><p>dish_name</p></li>
+          <li><p>dish_name</p></li>
+        </ul>
+      </li>
+    </ul>
+
   </div>
 
   <!-- 3rd party -->
