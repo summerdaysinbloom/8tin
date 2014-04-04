@@ -102,47 +102,72 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
             keywords: 'DEMO',
             description: 'DEMO'
         })
-        .when('/dine-in', {
-            templateUrl: 'views/dine-in.html',
-            controller: 'DineinCtrl',
-            depth: 1,
-            title: '',
-            keywords: '',
-            description: ''
-        })
-        .when('/dine-out', {
-            templateUrl: 'views/dine-out.html',
-            controller: 'DineoutCtrl',
+        .when('/menu-nearby', {
+            templateUrl: 'views/menu-nearby.html',
+            controller: 'MenuNearbyCtrl',
             depth: 3,
-            title: '',
-            keywords: '',
-            description: ''
-        })
-        .when('/main', {
-            templateUrl: 'views/main2.html',
-            controller: 'Main2Ctrl',
-            depth: 2,
             title: 'DEMO',
             keywords: 'DEMO',
             description: 'DEMO'
         })
-        .when('/delivery', {
-            templateUrl: 'views/delivery.html',
-            controller: 'DeliverCtrl',
-            depth: 1,
-            title: '',
-            keywords: '',
-            description: ''
+        .when('/nearby-dishes', {
+            templateUrl: 'views/nearby-dishes.html',
+            controller: 'NearbyDishesCtrl',
+            depth: 4,
+            title: 'DEMO',
+            keywords: 'DEMO',
+            description: 'DEMO'
         })
-        .when('/eatout', {
-            templateUrl: 'views/eatout.html',
-            controller: 'EatoutCtrl',
-            depth: 3,
-            title: '',
-            keywords: '',
-            description: ''
+        .when('/nearby-cuisine', {
+            templateUrl: 'views/nearby-cuisine.html',
+            controller: 'NearbyCuisineCtrl',
+            depth: 4,
+            title: 'DEMO',
+            keywords: 'DEMO',
+            description: 'DEMO'
         })
+
+        // .when('/dine-in', {
+        //     templateUrl: 'views/dine-in.html',
+        //     controller: 'DineinCtrl',
+        //     depth: 1,
+        //     title: '',
+        //     keywords: '',
+        //     description: ''
+        // })
+        // .when('/dine-out', {
+        //     templateUrl: 'views/dine-out.html',
+        //     controller: 'DineoutCtrl',
+        //     depth: 3,
+        //     title: '',
+        //     keywords: '',
+        //     description: ''
+        // })
+        // .when('/main', {
+        //     templateUrl: 'views/main2.html',
+        //     controller: 'Main2Ctrl',
+        //     depth: 2,
+        //     title: 'DEMO',
+        //     keywords: 'DEMO',
+        //     description: 'DEMO'
+        // })
+        // .when('/delivery', {
+        //     templateUrl: 'views/delivery.html',
+        //     controller: 'DeliverCtrl',
+        //     depth: 1,
+        //     title: '',
+        //     keywords: '',
+        //     description: ''
+        // })
+        // .when('/eatout', {
+        //     templateUrl: 'views/eatout.html',
+        //     controller: 'EatoutCtrl',
+        //     depth: 3,
+        //     title: '',
+        //     keywords: '',
+        //     description: ''
+        // })
 	   .otherwise({
-        	redirectTo: '/main'
+        	redirectTo: '/'
         });
     }]);
