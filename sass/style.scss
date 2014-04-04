@@ -316,20 +316,9 @@ header {
       padding: 1.0em;
     }
   }
-  li#menu-detail-map a {
-    span, 
-    p {
-      display: inline;
-    }
-    p {
-      display: inline;
-      position: absolute;
-      right: 1.0em;
-    }
-  }
   li#menu-detail-addr {
-    padding: 1.0em;
-    .postcode {
+    .location {
+      display: inline;
       float: right;
       font-size: .813em;
     }
