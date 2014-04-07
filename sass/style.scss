@@ -279,7 +279,7 @@ header {
   width: 100%;
   z-index: 10000;
   span {
-    font-weight: 700;
+    font-weight: 800;
   }
 }
 
@@ -292,6 +292,9 @@ header {
   -moz-transition: 0.3s bottom ease-out;
   -o-transition: 0.3s bottom ease-out;
   transition: 0.3s bottom ease-out;
+  .page-btn {
+    font-size: 20px;
+  }
 }
 
 #menu-detail {
@@ -354,7 +357,7 @@ header {
   /*border: 10px solid rgba(255,255,255,.5);*/
   /*border-radius: 100px;*/
   color: #fff;
-  font-size: 20px;
+  font-size: 32px;
   padding: 20px;
   /*width: 85px;*/
 }
