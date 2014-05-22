@@ -12,7 +12,7 @@ app
     function ($scope, $timeout, $http, $rootScope) {
 
         // $http.get('/8tin/dishes.json').then(
-        $http.get('/8tin/dishes.json').then(
+        $http.get('/dishes.json').then(
             function(response) {    
                 // success handler
                 console.log('success', response);
