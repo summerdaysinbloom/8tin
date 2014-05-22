@@ -13,6 +13,10 @@ $grey: #e7e6eb;
   box-sizing: border-box;
 }
 
+.pure-g-r img {
+  max-width: 120%;
+}
+
 @mixin horizontal-center() {
   display: -webkit-box;
   display: -moz-box;
@@ -207,21 +211,38 @@ header {
 
 #container {
   height: 100%;
-/*  #slider .swipe-wrap .image-wrapper img {
-    margin-top: 0;
-    -webkit-transition: 0.2s margin-top ease-out;
-    -moz-transition: 0.2s margin-top ease-out;
-    -o-transition: 0.2s margin-top ease-out;
-    transition: 0.2s margin-top ease-out;
+  width: 100%;
+  #slider .swipe-wrap .image-wrapper {
+    height: 100%;
+    overflow-x: hidden;
+    width: 100%;
+    h1 {
+      background: rgba(0,0,0,0);
+      color: #fff;
+      font-size: 1em;
+      left: 0;
+      margin: 0;
+      padding: 1.0em;
+      position: absolute;
+      right: 0;
+      text-align: center;
+      z-index: 1;
+    }
+    img {
+      margin-left: -10%;
+      margin-top: -10%;
+      width: auto;
+      height: 120%;
+      -webkit-transition: margin-left 0.5s, width 0.5s, height 0.5s;
+      -moz-transition: margin-left 0.5s, width 0.5s, height 0.5s;
+      transition: margin-left 0.5s, width 0.5s, height 0.5s;
+    }
+    img.zoomin {
+      margin-left: 0%;
+      width: auto;
+      height: 100%;
+    }
   }
-  &.withdetails #slider .swipe-wrap .image-wrapper img {
-    margin-bottom: 20%;
-    margin-top: -20%;
-    -webkit-transition: 0.2s margin-top ease-out;
-    -moz-transition: 0.2s margin-top ease-out;
-    -o-transition: 0.2s margin-top ease-out;
-    transition: 0.2s margin-top ease-out;
-  }*/
 }
 
 #seletor.pure-u-1 {
@@ -264,26 +285,6 @@ header {
 #slider.height {
   height: 200px;
   .swipe-wrap {
-    height: 100%;
-  }
-}
-
-.image-wrapper {
-  height: 100%;
-  overflow-x: hidden;
-  h1 {
-    background: rgba(0,0,0,0);
-    color: #fff;
-    font-size: 1em;
-    left: 0;
-    margin: 0;
-    padding: 1.0em;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    z-index: 1;
-  }
-  img {
     height: 100%;
   }
 }

@@ -6,7 +6,7 @@
           <!-- <div id='test' ng-controller='testCtrl' ng-model='priceVal' value='{{$index}}'>{{$index}}</div> -->
           <div class='image-wrapper'>
             <!-- <p id='price'><price-icon value='dish.price'></price-icon></p> -->
-            <img src='{{dish.image}}' />
+            <img src='{{dish.image}}' ng-class="{zoomin: showMenu == true}"/>
           </div>
 
           <div id='menu-detail' ng-class="{showmenu: showMenu == true}" ng-show='showMenu'>
