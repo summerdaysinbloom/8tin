@@ -29,7 +29,7 @@
               <li class='pure-u-1' id='menu-detail-menu'>
                 <span class='icon-uniF7A8'></span> Menu
                 <ul>
-                  <li ng-repeat='item in dish.menu'><p>{{item}}</p></li>
+                  <li ng-repeat='(key, value) in dish.menu'><p>{{value}}</p></li>
                 </ul>
               </li>
             </ul>
