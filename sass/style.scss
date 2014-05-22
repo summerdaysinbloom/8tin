@@ -215,7 +215,7 @@ header {
     transition: 0.2s margin-top ease-out;
   }
   &.withdetails #slider .swipe-wrap .image-wrapper img {
-    margin-bottom: 20%;
+    /*margin-bottom: 20%;*/
     margin-top: -20%;
     -webkit-transition: 0.2s margin-top ease-out;
     -moz-transition: 0.2s margin-top ease-out;
