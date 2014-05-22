@@ -8,7 +8,7 @@
 			"postcode": "179024"
 		},
 		"image": "images/food1.png",
-		"menu": ["noodle1","soup1","salad1","drink1"],
+		"menu": ["noodle1","soup1","salad1","drink1","noodle1"],
 		"map": "https://www.google.com.sg/maps/place/Clarke+Quay/@1.2909355,103.  8454321,17z/data=!3m1!4b1!4m2!3m1!1s0x31da19a038007c9d:0x20e5acd1e8ccf02"
 	},
 	{
