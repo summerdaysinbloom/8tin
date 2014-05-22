@@ -1,0 +1,26 @@
+<div class='pure-g' ng-class="{withmenu: showMenu == true}" ng-hide='hideStickyBar' id='sticky-btn'>
+  <a class='pure-u-1-3 page-btn' onclick='slider.prev()'><span class='icon-arrow-left22'></span></a>
+  <a class='pure-u-1-3 page-btn' ng-click='showMenu = !showMenu' id='showMenuBtn'><span class='icon-list'></span></a>
+  <a class='pure-u-1-3 page-btn' onclick='slider.next()'><span class='icon-uniE605'></span></a>
+</div>
+<div id='menu-detail' ng-show='showMenu'>
+  <ul class='i-box'>
+    <li class='pure-u-1' id='menu-detail-addr'>
+      <a href='https://www.google.com.sg/maps/place/Clarke+Quay/@1.2909355,103.  8454321,17z/data=!3m1!4b1!4m2!3m1!1s0x31da19a038007c9d:0x20e5acd1e8ccf02'>
+      <span class='icon-directions'></span> Address <p class='location'><span class='icon-location'></span> 0.5km</p>
+      <p>Clarke Quay 3E River Valley Rd</p>
+      <p>Singapore 179024</p>
+    </li>
+    <li class='pure-u-1' id='menu-detail-menu'>
+      <span class='icon-uniF7A8'></span> Menu
+      <ul>
+        <li><p>Lemon chicken</p></li>
+        <li><p>Lemon chicken</p></li>
+        <li><p>Lemon chicken</p></li>
+        <li><p>Lemon chicken</p></li>
+        <li><p>Lemon chicken</p></li>
+        <li><p>Palak chicken</p></li>
+      </ul>
+    </li>
+  </ul>
+</div>

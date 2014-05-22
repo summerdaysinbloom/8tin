@@ -1,8 +1,8 @@
 'use strict';
 
-angular.module('ngFilters', []).filter('checkmark', function() {
+angular.module('ngFilters', []).filter('priceFilter', function() {
 	return function(input) {
-	  	console.log('input',input);
+
 	  	// var now = new Date();
     // 	var month = (now.getMonth() + 1);      
     // 	var day = now.getDate();
@@ -17,3 +17,4 @@ angular.module('ngFilters', []).filter('checkmark', function() {
 
 	};
 });
+
