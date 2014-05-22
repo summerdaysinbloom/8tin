@@ -372,9 +372,9 @@ header {
 
 #sticky-btn-inside.on {
   background: rgba(0,0,0,.1);
-  position: fixed;
+  /*position: fixed;*/
   width: 100%;
-  bottom: 244px;
+  /*bottom: 244px;*/
   -webkit-transition: .3s ease-out all;
   -moz-transition: .3s ease-out all;
   -ms-transition: .3s ease-out all;
@@ -454,7 +454,7 @@ header {
 #menu-detail {
   background: rgba(0,0,0,.1);
   height: 260px;
-  overflow-y: scroll;
+  overflow-y: hidden;
   padding-bottom: 1em;
   position: fixed;
   bottom: -16px;
@@ -464,11 +464,6 @@ header {
   -o-transition: 0.3s all ease-out;
   transition: 0.3s all ease-out;
 }
-
-#menu-detail::-webkit-scrollbar {
-  display: none;
-}
-
 
 #menu-detail.showmenu {
     /*bottom: -87px;*/
@@ -492,6 +487,8 @@ header {
 
 #menu-detail > ul {
   background: #fff;
+  height: 200px;
+  overflow-y: scroll;
   li h1 {
     margin: 0;
   }
@@ -516,6 +513,10 @@ header {
       margin: 0 1.0em;
     }
   }
+}
+
+#menu-detail > ul::-webkit-scrollbar {
+  display: none;
 }
 
 #slider div b {
