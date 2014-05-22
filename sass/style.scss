@@ -270,27 +270,6 @@ header {
 .image-wrapper {
   height: 100%;
   overflow-x: hidden;
-  #price {
-    color: rgba(0,0,0,.4);
-    padding: 0.7em;
-    position: absolute;
-    &.price1 {
-      span:first-child {
-        color: rgba(0,0,0,1);
-      }
-    }
-    &.price2 {
-      span:nth-child(1),
-      span:nth-child(2) {
-        color: rgba(0,0,0,1);
-      }      
-    }
-    &.price3 {
-      span {
-        color: rgba(0,0,0,1);
-      }
-    }
-  }
   h1 {
     background: rgba(0,0,0,0);
     color: #fff;
@@ -371,16 +350,14 @@ header {
 }
 
 #sticky-btn-inside.on {
-  -webkit-transition: 25s ease-out all;
-  -moz-transition: 25s ease-out all;
-  -ms-transition: 25s ease-out all;
-  -o-transition: 25s ease-out all;
-  transition: 25s ease-out all;
+  -webkit-transition: .3s ease-out all;
+  -moz-transition: .3s ease-out all;
+  -ms-transition: .3s ease-out all;
+  -o-transition: .3s ease-out all;
+  transition: .3s ease-out all;
 }
 
-#sticky-btn-inside.ng-hide-add, 
-#sticky-btn-inside.ng-hide-remove
-{
+#sticky-btn-inside.on-add-active {
   display: block !important; 
 }
 
@@ -412,6 +389,37 @@ header {
   margin-bottom: -230px;
 }
 
+#sticky-btn-inside a {
+  height: inherit;
+  #dishname {
+    font-size: 1.0rem;
+    span {
+      display: block;
+      font-size: 0.6rem;
+    }
+  }
+  #price {
+    color: rgba(0,0,0,.1);
+    display: -webkit-box;
+    font-size: 0.8em;
+    &.price1 {
+      span:first-child {
+        color: #fff;
+      }
+    }
+    &.price2 {
+      span:nth-child(1),
+      span:nth-child(2) {
+        color: #fff;
+      }      
+    }
+    &.price3 {
+      span {
+        color: #fff;
+      }
+    }
+  }
+}
 
 #menu-detail {
   background: rgba(0,0,0,.1);
@@ -472,22 +480,10 @@ header {
       font-size: .813em;
     }
   }
-  li#menu-detail-dish,
   li#menu-detail-menu {
     padding: 1.0em;
     ul {
       margin: 0 1.0em;
-    }
-  }
-  li#menu-detail-dish {
-    h1 {
-      display: inline;
-      float: left;
-      font-size: 1.0rem;
-    }
-    span {
-      font-size: 0.6rem;
-      padding-left: 0.5em;
     }
   }
 }
