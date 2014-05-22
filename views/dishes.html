@@ -11,13 +11,13 @@
 
           <div id='menu-detail' ng-class="{showmenu: showMenu == true}" ng-show='showMenu'>
             <div class='pure-g' ng-class="{on: showMenu == true}" id='sticky-btn-inside'>
-              <a class='pure-u-1-6 page-btn' ng-controller='bindPriceCtrl'>
+              <a class='pure-u-1-8 page-btn' ng-controller='bindPriceCtrl'>
                 <p id='price' ng-bind-html="priceHtml" ng-class='{"price3": dish.price == 3, "price2": dish.price == 2, price1: dish.price == 1}'></p>
               </a>
-              <a class='pure-u-2-3 page-btn'>
+              <a class='pure-u-3-4 page-btn'>
                 <h1 id='dishname'>{{dish.dishname}}<span>{{dish.name}}</span></h1>
               </a>
-              <a class='pure-u-1-6 page-btn' ng-click='clickHideMenu()' id='hideMenuBtn'><span class='icon-cancel2'></span></a>
+              <a class='pure-u-1-8 page-btn' ng-click='clickHideMenu()' id='hideMenuBtn'><span class='icon-cancel2'></span></a>
             </div>
             <ul class='i-box'>
               <li class='pure-u-1' id='menu-detail-addr'>
