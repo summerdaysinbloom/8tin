@@ -207,6 +207,9 @@ header {
 
 #container {
   height: 100%;
+  #slider .swipe-wrap .image-wrapper {
+    padding-bottom: 20%;
+  }
   #slider .swipe-wrap .image-wrapper img {
     margin-top: 0;
     -webkit-transition: 0.2s margin-top ease-out;
@@ -216,6 +219,7 @@ header {
   }
   &.withdetails #slider .swipe-wrap .image-wrapper img {
     /*margin-bottom: 20%;*/
+    /*height: 120%;*/
     margin-top: -20%;
     -webkit-transition: 0.2s margin-top ease-out;
     -moz-transition: 0.2s margin-top ease-out;
