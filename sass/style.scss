@@ -215,6 +215,7 @@ header {
     transition: 0.2s margin-top ease-out;
   }
   &.withdetails #slider .swipe-wrap .image-wrapper img {
+    margin-bottom: 20%;
     margin-top: -20%;
     -webkit-transition: 0.2s margin-top ease-out;
     -moz-transition: 0.2s margin-top ease-out;
@@ -326,19 +327,10 @@ header {
   /*color: #fff;*/
 }
 
-#sticky-btn-inside {
-  a {
-    color: #fff;
-    font-size: 1em;
-    padding: 0;
-  }
-  span {
-    font-weight: 800;
-  }
-}
-
 #sticky-btn.withmenu {
   background: rgba(0,0,0,.1);
+  /*background: #F99784;*/
+
   height: 60px;
   
   bottom: 230px;
@@ -371,6 +363,8 @@ header {
 }
 
 #sticky-btn-inside.on {
+
+  background: #F99784; // rgba(249,151,132,1);
   /*position: fixed;*/
   width: 100%;
   /*bottom: 244px;*/
@@ -413,19 +407,33 @@ header {
   margin-bottom: -230px;
 }
 
+#sticky-btn-inside {
+  a {
+    color: #fff;
+    font-size: 1em;
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(0,0,0,.1);
+  }
+  span {
+    font-weight: 800;
+  }
+}
+
 #sticky-btn-inside a {
   height: inherit;
   padding: 20px 0;
+  text-shadow: 0 1px 0 rgba(0,0,0,.1);
   #dishname {
     font-size: 1.2rem;
     span {
+      color: #eee;
       display: block;
       font-size: 0.8rem;
       font-weight: 400;
     }
   }
   #price {
-    color: rgba(0,0,0,.1);
+    color: rgba(0,0,0,.01);
     font-size: 1em;
     margin-left: 0.5em;
     span {
@@ -492,7 +500,7 @@ header {
     margin: 0;
   }
   > li {
-    border-bottom: 3px solid #ddd;
+    border-bottom: 1px solid #eee;
     box-shadow: 0 1px 0 rgba(255,255,255,1);
     a {
       display: block;
