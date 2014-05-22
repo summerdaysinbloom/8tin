@@ -364,12 +364,17 @@ header {
     font-size: 20px;
   }
 }
+
 #sticky-btn-inside {
   bottom: -60px;
   height: 60px;
 }
 
 #sticky-btn-inside.on {
+  background: rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  bottom: 244px;
   -webkit-transition: .3s ease-out all;
   -moz-transition: .3s ease-out all;
   -ms-transition: .3s ease-out all;
@@ -448,7 +453,7 @@ header {
 
 #menu-detail {
   background: rgba(0,0,0,.1);
-  height: 310px;
+  height: 260px;
   overflow-y: scroll;
   padding-bottom: 1em;
   position: fixed;
