@@ -229,16 +229,15 @@ header {
       z-index: 1;
     }
     img {
-      margin-left: -10%;
-      margin-top: -10%;
       width: auto;
-      height: 120%;
-      -webkit-transition: margin-left 0.5s, width 0.5s, height 0.5s;
-      -moz-transition: margin-left 0.5s, width 0.5s, height 0.5s;
-      transition: margin-left 0.5s, width 0.5s, height 0.5s;
+      height: 100%;
+      -webkit-transition: margin-top 0.5s, width .5s, height 0.5s;
+      -moz-transition: margin-top 0.5s, width .5s, height 0.5s;
+      transition: margin-top 0.5s, width .5s, height 0.5s;
     }
     img.zoomin {
-      margin-left: 0%;
+      margin-top: -20%;
+      margin-bottom: 20%;
       width: auto;
       height: 100%;
     }

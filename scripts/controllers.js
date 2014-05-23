@@ -11,7 +11,6 @@ app
 .controller('DishesCtrl',['$scope', '$timeout', '$http', '$rootScope',
     function ($scope, $timeout, $http, $rootScope) {
 
-        // $http.get('/8tin/dishes.json').then(
         $http.get('/8tin/dishes.json').then(
             function(response) {    
                 // success handler
