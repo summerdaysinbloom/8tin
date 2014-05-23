@@ -229,17 +229,16 @@ header {
       z-index: 1;
     }
     img {
-      width: auto;
-      height: 100%;
-      -webkit-transition: margin-top 0.5s, width .5s, height 0.5s;
-      -moz-transition: margin-top 0.5s, width .5s, height 0.5s;
-      transition: margin-top 0.5s, width .5s, height 0.5s;
+      width: 120%;
+      height: auto;
+      -webkit-transition: margin-top .3s, width .3s;
+      -moz-transition: margin-top .3s, width .3s;
+      transition: margin-top .3s, width .3s;
     }
     img.zoomin {
-      margin-top: -20%;
-      margin-bottom: 20%;
-      width: auto;
-      height: 100%;
+      height: auto;
+      /*margin-top: -10%;*/
+      width: 100%;
     }
   }
 }

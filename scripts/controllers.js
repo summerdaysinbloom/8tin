@@ -42,7 +42,6 @@ app
         }, 1000);
 
         $scope.clickHideMenu = function() {
-            console.log('has been clicked');
             $scope.showMenu = false;
         }
         console.log('dish > ' , $scope );
