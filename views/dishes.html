@@ -1,0 +1,54 @@
+<div class='pure-u-1' ng-cloak>
+  <div class='pure-g'>
+    <div class='pure-u-1 page swipe' id='slider'>
+      <div class='swipe-wrap'>
+        <div ng-repeat='dish in dishes'>
+          <!-- <div id='test' ng-controller='testCtrl' ng-model='priceVal' value='{{$index}}'>{{$index}}</div> -->
+          <div class='image-wrapper'>
+            <!-- <p id='price'><price-icon value='dish.price'></price-icon></p> -->
+            <img src='{{dish.image}}' ng-class="{zoomin: showMenu == true}"/>
+          </div>
+
+          <div id='menu-detail' ng-class="{showmenu: showMenu == true}" ng-show='showMenu'>
+            <div class='pure-g' ng-class="{on: showMenu == true}" id='sticky-btn-inside'>
+              <a class='pure-u-1-8 page-btn' ng-controller='bindPriceCtrl'>
+                <p id='price' ng-bind-html="priceHtml" ng-class='{"price3": dish.price == 3, "price2": dish.price == 2, price1: dish.price == 1}'></p>
+              </a>
+              <a class='pure-u-3-4 page-btn'>
+                <h1 id='dishname'>{{dish.dishname}}<span>{{dish.name}}</span></h1>
+              </a>
+              <a class='pure-u-1-8 page-btn' ng-click='clickHideMenu()' id='hideMenuBtn'><span class='icon-cancel2'></span></a>
+            </div>
+            <ul class='i-box'>
+              <li class='pure-u-1' id='menu-detail-addr'>
+                <a href=''>
+                <span class='icon-directions'></span> Address <p class='location'><span class='icon-location'></span> 0.5km</p>
+                <p>{{dish.address.detail}}</p>
+                <p>Singapore {{dish.address.postcode}}</p>
+              </li>
+              <li class='pure-u-1' id='menu-detail-menu'>
+                <span class='icon-uniF7A8'></span> Menu
+                <ul>
+                  <li ng-repeat='(key, value) in dish.menu'><p>{{value}}</p></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+        </div>      
+      </div>
+    </div>
+  </div>
+
+  <div class='pure-g' ng-class="{withmenu: showMenu == true}" id='sticky-btn'>
+    <a class='pure-u-1-3 page-btn' onclick='slider.prev()'><span class='icon-arrow-left22'></span></a>
+    <a class='pure-u-1-3 page-btn' ng-click='showMenu = !showMenu' id='showMenuBtn'><span class='icon-list'></span></a>
+    <a class='pure-u-1-3 page-btn' onclick='slider.next()'><span class='icon-uniE605'></span></a>
+  </div>
+<!--   <div class='pure-g' ng-class="{on: showMenu == true}" id='sticky-btn-inside'>
+    <a class='pure-u-1-3 page-btn'><span class='icon-coin'></span></a>
+    <a class='pure-u-1-3 page-btn' >{{dishes.$index.name}}</a>
+    <a class='pure-u-1-3 page-btn' ng-click='showMenu = !showMenu' id='hideMenuBtn'><span class='icon-cancel2'></span></a>
+  </div> -->
+  
+</div>

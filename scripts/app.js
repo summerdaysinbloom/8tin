@@ -4,7 +4,9 @@
 var app = angular.module('ffApp', [
     'ngRoute',
     'ngControllers',
-    'ngAnimate'
+    'ngAnimate',
+    'ngDirectives',
+    'ngServices'
 ]);
 
 app
@@ -21,48 +23,54 @@ app
             $rootScope.description = current.$$route.description;
     
             // Hidden footer effect on main page
-    
-            if($location.path() == '/dine-in') {
-                $rootScope.hideIn = true;
-                $rootScope.hideStickyBar = false;
-            } else {
-                $rootScope.hideIn = false;
-                $rootScope.hideStickyBar = false;
-            }
-            if($location.path() == '/dine-out') {
-                $rootScope.hideOut = true;
-                $rootScope.hideStickyBar = false;
-            } else {
-                $rootScope.hideOut = false;
-                $rootScope.hideStickyBar = false;
-            }
-            if($location.path() == '/') {
-                $rootScope.hideIn = true;
-                $rootScope.hideOut = true;
-                $rootScope.hideStickyBar = true;
-            }
 
-            //  demo2
+            // if($location.path() == '/') {
+            //     $rootScope.hideHomeButton = true;
+            // } else {
+            //     $rootScope.hideHomeButton = false;
+            // }
 
-            if($location.path() == '/delivery') {
-                $rootScope.hideIn = true;
-                $rootScope.hideStickyBar = false;
-            } else {
-                $rootScope.hideIn = false;
-                $rootScope.hideStickyBar = false;
-            }
-            if($location.path() == '/eatout') {
-                $rootScope.hideOut = true;
-                $rootScope.hideStickyBar = false;
-            } else {
-                $rootScope.hideOut = false;
-                $rootScope.hideStickyBar = false;
-            }
-            if($location.path() == '/main') {
-                $rootScope.hideIn = true;
-                $rootScope.hideOut = true;
-                $rootScope.hideStickyBar = true;
-            } 
+            // if($location.path() == '/dine-in') {
+            //     $rootScope.hideIn = true;
+            //     $rootScope.hideStickyBar = false;
+            // } else {
+            //     $rootScope.hideIn = false;
+            //     $rootScope.hideStickyBar = false;
+            // }
+            // if($location.path() == '/dine-out') {
+            //     $rootScope.hideOut = true;
+            //     $rootScope.hideStickyBar = false;
+            // } else {
+            //     $rootScope.hideOut = false;
+            //     $rootScope.hideStickyBar = false;
+            // }
+            // if($location.path() == '/') {
+            //     $rootScope.hideIn = true;
+            //     $rootScope.hideOut = true;
+            //     $rootScope.hideStickyBar = true;
+            // }
+
+            // //  demo2
+
+            // if($location.path() == '/delivery') {
+            //     $rootScope.hideIn = true;
+            //     $rootScope.hideStickyBar = false;
+            // } else {
+            //     $rootScope.hideIn = false;
+            //     $rootScope.hideStickyBar = false;
+            // }
+            // if($location.path() == '/eatout') {
+            //     $rootScope.hideOut = true;
+            //     $rootScope.hideStickyBar = false;
+            // } else {
+            //     $rootScope.hideOut = false;
+            //     $rootScope.hideStickyBar = false;
+            // }
+            // if($location.path() == '/main') {
+            //     $rootScope.hideIn = true;
+            //     $rootScope.hideOut = true;
+            //     $rootScope.hideStickyBar = true;
+            // } 
         });
     }
 ]);
@@ -97,52 +105,52 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
 	    .when('/', {
             templateUrl: 'views/main.html',
             controller: 'MainCtrl',
-            depth: 2,
-            title: 'DEMO',
-            keywords: 'DEMO',
-            description: 'DEMO'
-        })
-        .when('/dine-in', {
-            templateUrl: 'views/dine-in.html',
-            controller: 'DineinCtrl',
             depth: 1,
-            title: '',
-            keywords: '',
-            description: ''
+            title: 'demo',
+            keywords: 'demo',
+            description: 'lets eat out'
         })
-        .when('/dine-out', {
-            templateUrl: 'views/dine-out.html',
-            controller: 'DineoutCtrl',
-            depth: 3,
-            title: '',
-            keywords: '',
-            description: ''
-        })
-        .when('/main', {
-            templateUrl: 'views/main2.html',
-            controller: 'Main2Ctrl',
+        .when('/dishes', {
+            templateUrl: 'views/dishes.html',
+            controller: 'DishesCtrl',
             depth: 2,
-            title: 'DEMO',
-            keywords: 'DEMO',
-            description: 'DEMO'
+            title: 'dishes',
+            keywords: 'dishes',
+            description: 'By random dishes'
         })
-        .when('/delivery', {
-            templateUrl: 'views/delivery.html',
-            controller: 'DeliverCtrl',
-            depth: 1,
-            title: '',
-            keywords: '',
-            description: ''
+        .when('/asian', {
+            templateUrl: 'views/cuisine-asian.html',
+            controller: 'CuisineAsianCtrl',
+            depth: 2,
+            title: 'asian',
+            keywords: 'asian',
+            description: 'asian'
         })
-        .when('/eatout', {
-            templateUrl: 'views/eatout.html',
-            controller: 'EatoutCtrl',
-            depth: 3,
-            title: '',
-            keywords: '',
-            description: ''
+        .when('/local', {
+            templateUrl: 'views/cuisine-local.html',
+            controller: 'CuisineLocalCtrl',
+            depth: 2,
+            title: 'local',
+            keywords: 'local',
+            description: 'local'
+        })
+        .when('/western', {
+            templateUrl: 'views/cuisine-western.html',
+            controller: 'CuisineWesternCtrl',
+            depth: 2,
+            title: 'western',
+            keywords: 'western',
+            description: 'western'
+        })
+        .when('/restaurant', {
+            templateUrl: 'views/restaurant.html',
+            controller: 'RestaurantCtrl',
+            depth: 2,
+            title: 'restaurant',
+            keywords: 'restaurant',
+            description: 'restaurant'
         })
 	   .otherwise({
-        	redirectTo: '/main'
+        	redirectTo: '/'
         });
     }]);

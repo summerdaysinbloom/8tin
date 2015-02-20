@@ -1,0 +1,107 @@
+[
+	{
+		"dishname": "lemon chicken1",
+		"price": "2",
+		"name": "restaurant name1",
+		"address": {
+			"detail": "Clarke Quay 3E River Valley Rd",
+			"postcode": "179024"
+		},
+		"image": "images/food1.png",
+		"menu": {
+			"0": "noodle1",
+			"1": "soup1",
+			"2": "salad1",
+			"3": "drink1",
+			"4": "noodle1"
+		},
+		"map": "https://www.google.com.sg/maps/place/Clarke+Quay/@1.2909355,103.  8454321,17z/data=!3m1!4b1!4m2!3m1!1s0x31da19a038007c9d:0x20e5acd1e8ccf02"
+	},
+	{
+		"dishname": "lemon chicken2",
+		"price": "1",
+		"name": "restaurant name2",
+		"address": {
+			"detail": "Clarke Quay 3E River Valley Rd",
+			"postcode": "111111"
+		},
+		"image": "images/food2.png",
+		"menu": {
+			"0": "salad2",
+			"1": "noodle2",
+			"2": "salad2",
+			"3": "soup2",
+			"4": "soup2",
+			"5": "salad2",
+			"6": "soup2",
+			"7": "soup2"
+		},
+		"map": "https://www.google.com.sg/maps/place/Clarke+Quay/@1.2909355,103.  8454321,17z/data=!3m1!4b1!4m2!3m1!1s0x31da19a038007c9d:0x20e5acd1e8ccf02"
+	},
+	{
+		"dishname": "lemon chicken3",
+		"price": "2",
+		"name": "restaurant name3",
+		"address": {
+			"detail": "Clarke Quay 3E River Valley Rd",
+			"postcode": "179024"
+		},
+		"image": "images/food3.png",
+		"menu": {
+			"0": "soup3",
+			"1": "salad3",
+			"2": "salad3",
+			"3": "drink3"
+		},
+		"map": "https://www.google.com.sg/maps/place/Clarke+Quay/@1.2909355,103.  8454321,17z/data=!3m1!4b1!4m2!3m1!1s0x31da19a038007c9d:0x20e5acd1e8ccf02"
+	},
+	{
+		"dishname": "lemon chicken4",
+		"price": "3",
+		"name": "restaurant name1",
+		"address": {
+			"detail": "Clarke Quay 3E River Valley Rd",
+			"postcode": "179024"
+		},
+		"image": "images/food1.png",
+		"menu": {
+			"0": "soup4",
+			"1": "salad4",
+			"2": "drink4"
+		},
+		"map": "https://www.google.com.sg/maps/place/Clarke+Quay/@1.2909355,103.  8454321,17z/data=!3m1!4b1!4m2!3m1!1s0x31da19a038007c9d:0x20e5acd1e8ccf02"
+	},
+	{
+		"dishname": "lemon chicken5",
+		"price": "2",
+		"name": "restaurant name2",
+		"address": {
+			"detail": "Clarke Quay 3E River Valley Rd",
+			"postcode": "555555"
+		},
+		"image": "images/food2.png",
+		"menu": {
+			"0": "soup5",
+			"1": "salad5",
+			"2": "drink5",
+			"3": "soup5",
+			"4": "salad5",
+			"5": "drink5"
+		},
+		"map": "https://www.google.com.sg/maps/place/Clarke+Quay/@1.2909355,103.  8454321,17z/data=!3m1!4b1!4m2!3m1!1s0x31da19a038007c9d:0x20e5acd1e8ccf02"
+	},
+	{
+		"dishname": "lemon chicken6",
+		"price": "1",
+		"name": "restaurant name3",
+		"address": {
+			"detail": "Clarke Quay 3E River Valley Rd",
+			"postcode": "179024"
+		},
+		"image": "images/food8.png",
+		"menu": {
+			"0": "soup6"
+		},
+		"map": "https://www.google.com.sg/maps/place/Clarke+Quay/@1.2909355,103.  8454321,17z/data=!3m1!4b1!4m2!3m1!1s0x31da19a038007c9d:0x20e5acd1e8ccf02"
+	}
+]
