@@ -1,0 +1,47 @@
+[
+	{
+		"item" : "RNG0009", 
+		"image": "images/temp_est/RNG0009.png", 
+		"name": "Welding holder"
+	},
+	{
+		"item" : "RNG0010", 
+		"image": "images/temp_est/RNG0010.png", 
+		"name": "Earth clamp"
+	},
+	{
+		"item" : "RNG0011", 
+		"image": "images/temp_est/RNG0011.png", 
+		"name": "Wire brush"
+	},
+	{
+		"item" : "RNG0012", 
+		"image": "images/temp_est/RNG0012.png", 
+		"name": "Welding hammer"
+	},
+	{
+		"item" : "RNG0013", 
+		"image": "images/temp_est/RNG0013.png", 
+		"name": "Steel wire brush"
+	},
+	{
+		"item" : "RNG0014", 
+		"image": "images/temp_est/RNG0014.png", 
+		"name": "Hand shield"
+	},
+	{
+		"item" : "RNG0015", 
+		"image": "images/temp_est/RNG0015.png", 
+		"name": "Leather welding glove"
+	},
+	{
+		"item" : "RNG0016", 
+		"image": "images/temp_est/RNG0016.png", 
+		"name": "Welding gloves"
+	},
+	{
+		"item" : "RNG0017", 
+		"image": "images/temp_est/RNG0017.png", 
+		"name": "Fire blanket"
+	}
+]

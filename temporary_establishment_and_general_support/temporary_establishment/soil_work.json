@@ -1,0 +1,37 @@
+[
+	{
+		"item" : "RNG0001", 
+		"image": "images/temp_est/RNG0001.png", 
+		"name": "Coconut net"
+	},
+	{
+		"item" : "RNG0002", 
+		"image": "images/temp_est/RNG0002.png", 
+		"name": "Geo-Textile"
+	},
+	{
+		"item" : "RNG0003", 
+		"image": "images/temp_est/RNG0003.png", 
+		"name": "Fabric-pp-Nowoven"
+	},
+	{
+		"item" : "RNG0004", 
+		"image": "images/temp_est/RNG0004.png", 
+		"name": "1Ton bag"
+	},
+	{
+		"item" : "RNG0005", 
+		"image": "images/temp_est/RNG0005.png", 
+		"name": "Flour bag"
+	},
+	{
+		"item" : "RNG0006", 
+		"image": "images/temp_est/RNG0006.png", 
+		"name": "Sand bag"
+	},
+	{
+		"item" : "pefilm", 
+		"image": "images/temp_est/pefilm.png", 
+		"name": "PE film"
+	}
+]

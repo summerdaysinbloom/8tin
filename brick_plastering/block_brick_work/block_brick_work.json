@@ -1,0 +1,47 @@
+[
+	{
+		"item" : "RNB0012", 
+		"image": "images/brick_plastering/RNB0012.png", 
+		"name": "Mixer"
+	},
+	{
+		"item" : "RNB0015", 
+		"image": "images/brick_plastering/RNB0015.png", 
+		"name": "Cement brick"
+	},
+	{
+		"item" : "RNB0017", 
+		"image": "images/brick_plastering/RNB0017.png", 
+		"name": "Mortor mixer"
+	},
+	{
+		"item" : "RNB0018", 
+		"image": "images/brick_plastering/RNB0018.png", 
+		"name": "Water tank"
+	},
+	{
+		"item" : "RNB0019", 
+		"image": "images/brick_plastering/RNB0019.png", 
+		"name": "Strip mesh"
+	},
+	{
+		"item" : "RNB0024", 
+		"image": "images/brick_plastering/RNB0024.png", 
+		"name": "Dry wall tape"
+	},
+	{
+		"item" : "RNB0025", 
+		"image": "images/brick_plastering/RNB0025.png", 
+		"name": "PVC Corner Bead"
+	},
+	{
+		"item" : "RNB0027", 
+		"image": "images/brick_plastering/RNB0027.png", 
+		"name": "Sand paper"
+	},
+	{
+		"item" : "RNB0028", 
+		"image": "images/brick_plastering/RNB0028.png", 
+		"name": "Silicone Gun"
+	}
+]

@@ -1,0 +1,22 @@
+	[
+	{
+		"item" : "RNS0076", 
+		"image": "images/safety_materials/RNS0076.png", 
+		"name": "Auto charger Type A"
+	},
+	{
+		"item" : "RNS0077", 
+		"image": "images/safety_materials/RNS0077.png", 
+		"name": "Auto charger Type B"
+	},
+	{
+		"item" : "RNS0078", 
+		"image": "images/safety_materials/RNS0078.png", 
+		"name": "Auto charger Type C"
+	},
+	{
+		"item" : "RNS0079", 
+		"image": "images/safety_materials/RNS0079.png", 
+		"name": "Auto charger Type D"
+	}
+]

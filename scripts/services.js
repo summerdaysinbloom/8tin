@@ -1,22 +1,12 @@
-// 'use strict';
-
-// angular.module('ngServices', []).factory(‘myService’, function(){
-//   var _artist = ‘Nelly’;
-//   this.getArtist = function(){
-//     return _artist;
-//   }
-// });
-
 'use strict';
 
-var ngServices = angular.module('ngServices', ['ngResource']);
+/* Services */
 
-// ngServices.service('dishes', ['$resource', '$http',
-//   function($resource, $http){
+var app = angular.module('ngServices', ['ngResource']);
 
-//     var testData = $http.get('dishes.json').success(function(response) {
-//     	console.log('!!!',response);
-//         return response;
-//     });
-// }]);
-
+app.factory('Phone', ['$resource',
+  function($resource){
+    return $resource('phones/:phoneId.json', {}, {
+      query: {method:'GET', params:{phoneId:'phones'}, isArray:true}
+    });
+  }]);

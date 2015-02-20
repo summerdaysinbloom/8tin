@@ -1,0 +1,17 @@
+[
+	{
+		"item" : "RNC0053-1", 
+		"image": "images/concrete/RNC0053-1.png", 
+		"name": "BOSCH"
+	},
+	{
+		"item" : "RNC0053", 
+		"image": "images/concrete/RNC0053.png", 
+		"name": "Bull point"
+	},
+	{
+		"item" : "RNC0054", 
+		"image": "images/concrete/RNC0054.png", 
+		"name": "Chisel"
+	}
+]

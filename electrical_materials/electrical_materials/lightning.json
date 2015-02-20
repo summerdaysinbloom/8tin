@@ -1,0 +1,12 @@
+[
+	{
+		"item" : "RNEL0039", 
+		"image": "images/electrical_materials/RNEL0039.png", 
+		"name": "Tape Clip"
+	},
+	{
+		"item" : "RNEL0041", 
+		"image": "images/electrical_materials/RNEL0041.png", 
+		"name": "Test & Junction Clamps"
+	}
+]

@@ -1,0 +1,37 @@
+[
+	{
+		"item" : "mcb-1", 
+		"image": "images/electrical_materials/mcb-1.png", 
+		"name": "MCB - 1poles"
+	},
+	{
+		"item" : "mcb-2", 
+		"image": "images/electrical_materials/mcb-2.png", 
+		"name": "MCB - 2poles"
+	},
+	{
+		"item" : "mcb-3", 
+		"image": "images/electrical_materials/mcb-3.png", 
+		"name": "MCB - 3poles"
+	},
+	{
+		"item" : "RNEL0023", 
+		"image": "images/electrical_materials/RNEL0023.png", 
+		"name": "Flexiblecircuit"
+	},
+	{
+		"item" : "RNEL0025", 
+		"image": "images/electrical_materials/RNEL0025.png", 
+		"name": "Twin Lamp MTL/NM/210"
+	},
+	{
+		"item" : "RNEL0028", 
+		"image": "images/electrical_materials/RNEL0028.png", 
+		"name": "Circuit Breaker Box"
+	},
+	{
+		"item" : "RNEL0031", 
+		"image": "images/electrical_materials/RNEL0031.png", 
+		"name": "PLEXO Boxes"
+	}
+]

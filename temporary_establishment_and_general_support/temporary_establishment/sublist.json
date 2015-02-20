@@ -1,0 +1,22 @@
+[
+  {
+    "category_id": "temporary_establishment",
+    "title": "Temporary Establishment"
+  },
+  {
+    "category_id":"soil_work",
+    "title":"Soil Work" 
+  },
+  { 
+    "category_id":"concrete_hume_pipes",
+    "title":"Concrete Hume Pipes"
+  },
+  {
+    "category_id": "brc_welded_wire_mesh",
+    "title": "BRC Welded Wire Mesh"
+  },
+  {
+    "category_id": "welding_gas_cutting",
+    "title": "Welding/Gas Cutting"
+  }
+]

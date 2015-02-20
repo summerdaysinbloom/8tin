@@ -1,0 +1,22 @@
+[
+	{
+		"item" : "RNS0086", 
+		"image": "images/safety_materials/RNS0086.png", 
+		"name": "Tiger Rope"
+	},
+	{
+		"item" : "RNS0087", 
+		"image": "images/safety_materials/RNS0087.png", 
+		"name": "Polypropylene Rope"
+	},
+	{
+		"item" : "RNS0088", 
+		"image": "images/safety_materials/RNS0088.png", 
+		"name": "Atlas Mooring Rope"
+	},
+	{
+		"item" : "RNS0089", 
+		"image": "images/safety_materials/RNS0089.png", 
+		"name": "Nylon Rope"
+	}
+]

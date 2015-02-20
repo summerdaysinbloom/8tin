@@ -1,0 +1,50 @@
+[
+  {
+    "category_id": "helmet",
+    "title": "helmet"
+  },
+  {
+    "category_id":"chin_straps",
+    "title":"Chin Straps" 
+  },
+  { 
+    "category_id":"helmet_cloth",
+    "title":"Helmet Cloth"
+  },
+  {
+    "category_id": "hand_gloves",
+    "title": "Hand Gloves"
+  },
+  {
+    "category_id": "eye_protective",
+    "title": "Eye Protective"
+  },
+  {
+    "category_id": "ear_plug",
+    "title": "Ear Plug"
+  },
+  {
+    "category_id": "mask",
+    "title": "Mask"
+  },
+  {
+    "category_id": "safety_vest",
+    "title": "Safety Vest"
+  },
+  {
+    "category_id": "safety_shoes",
+    "title": "Safety Shoes"
+  },
+  {
+    "category_id": "skin_protective",
+    "title": "Skin Protective"
+  },
+  {
+    "category_id": "safety_harness",
+    "title": "Safety Harness"
+  },
+  {
+    "category_id": "rain_coats",
+    "title": "Rain Coats"
+  }
+]

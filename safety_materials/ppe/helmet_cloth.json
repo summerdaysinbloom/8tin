@@ -1,0 +1,12 @@
+[
+	{
+		"item" : "RNS0010", 
+		"image": "images/safety_materials/RNS0010.png", 
+		"name": "Whistle"
+	},
+	{
+		"item" : "RNS0011", 
+		"image": "images/safety_materials/RNS0011.png", 
+		"name": "Helmet cloth"
+	}
+]

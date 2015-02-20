@@ -1,0 +1,78 @@
+[
+  {
+    "category_id": "safety_net_chain",
+    "title": "Safety Net / Chain"
+  },
+  {
+    "category_id": "safety_cone",
+    "title": "Safety Cone"
+  },
+  {
+    "category_id": "safety_tape",
+    "title": "Safety Tape"
+  },
+  {
+    "category_id": "safety_post",
+    "title": "Safety Post"
+  },
+  {
+    "category_id": "etc",
+    "title": "Etc"
+  },
+  {
+    "category_id": "confined_space_entry_work",
+    "title": "Confined Space Entry Work"
+  },
+  {
+    "category_id": "safety_barricades",
+    "title": "Safety Barricades"
+  },
+  {
+    "category_id": "safety_traffic_light",
+    "title": "Safety Traffic Light"
+  },
+  {
+    "category_id": "first_aid_box",
+    "title": "First Aid Box"
+  },
+  {
+    "category_id": "safety_stretcher",
+    "title": "Safety Stretcher"
+  },
+  {
+    "category_id": "construction_site_safety_signs",
+    "title": "Construction Site Safety Signs"
+  },
+  {
+    "category_id": "safety_rope",
+    "title": "Safety Rope"
+  },
+  {
+    "category_id": "drop_protection",
+    "title": "Drop Protection"
+  },
+  {
+    "category_id": "ladder",
+    "title": "Ladder"
+  },
+  {
+    "category_id": "lifting_work",
+    "title": "Lifting Work"
+  },
+  {
+    "category_id": "webbing_slings",
+    "title": "Webbing Slings"
+  },
+  {
+    "category_id": "ec_materials",
+    "title": "EC(Enviromental Control) Materials"
+  },
+  {
+    "category_id": "fogging_machine",
+    "title": "Fogging Machine"
+  },
+  {
+    "category_id": "backpack_grass_cutter",
+    "title": "Backpack Grass Cutter"
+  }  
+]

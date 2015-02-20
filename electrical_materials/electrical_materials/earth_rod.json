@@ -1,0 +1,17 @@
+[
+	{
+		"item" : "RNEL0046", 
+		"image": "images/electrical_materials/RNEL0046.png", 
+		"name": "Copper Rod"
+	},
+	{
+		"item" : "RNEL0049", 
+		"image": "images/electrical_materials/RNEL0049.png", 
+		"name": "Fittings Couplings for Copper Rods"
+	},
+	{
+		"item" : "RNEL0050", 
+		"image": "images/electrical_materials/RNEL0050.png", 
+		"name": "Air Terminal Slat Base"
+	}
+]

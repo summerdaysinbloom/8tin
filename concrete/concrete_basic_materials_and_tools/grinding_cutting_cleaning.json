@@ -1,0 +1,47 @@
+[
+	{
+		"item" : "RNC0045", 
+		"image": "images/concrete/RNC0045.png", 
+		"name": "Segmented tubo grinding cup wheel"
+	},
+	{
+		"item" : "RNC0047", 
+		"image": "images/concrete/RNC0047.png", 
+		"name": "For metal cut"
+	},
+	{
+		"item" : "RNC0048", 
+		"image": "images/concrete/RNC0048.png", 
+		"name": "Cup brush A"
+	},
+	{
+		"item" : "RNC0049", 
+		"image": "images/concrete/RNC0049.png", 
+		"name": "Cup brush B"
+	},
+	{
+		"item" : "RNC0050", 
+		"image": "images/concrete/RNC0050.png", 
+		"name": "Cup brush C"
+	},
+	{
+		"item" : "RNC0051", 
+		"image": "images/concrete/RNC0051.png", 
+		"name": "Cup brush D"
+	},
+	{
+		"item" : "RNC0052", 
+		"image": "images/concrete/RNC0052.png", 
+		"name": "Concrete vibrators"
+	},
+	{
+		"item" : "RNC-heater", 
+		"image": "images/concrete/RNC-heater.png", 
+		"name": "Heater"
+	},
+	{
+		"item" : "RNC-waterjetcleaning", 
+		"image": "images/concrete/RNC-waterjetcleaning.png", 
+		"name": "Water Jet Cleaning Machine"
+	}
+]

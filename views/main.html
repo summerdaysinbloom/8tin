@@ -1,13 +1,238 @@
-<!-- direct to page of showing random dishes -->
-<a class='pure-u-1 dine-block dishes' href='#/dishes'><p>Show me dishes</p></a>
-<!-- filter by cuisine -->
-<div class='pure-u-1 dine-block cuisine'>
-	<div class='pure-g'>
-  	<a class='pure-u-1-2 dine-block-inside asian' href='#/asian'><p>Asian</p></a>
-  	<a class='pure-u-1-2 dine-block-inside local' href='#/local'><p>Local</p></a>
+<header class='pure-u-1 fixed' ng-class='hideLanding' ng-cloak>
+  <nav id='nav' class='pure-g'>
+    <h1 id='logo' class='pure-u-1-4 pure-u-sm-1-8 pure-u-md-1-8 pure-u-lg-1-8'>
+      <a href='#/'>Logo</a>
+    </h1>
+    <!-- <a id='mobile-menu' class='pure-u-1-4'>mobile</a> -->
+    <ul id='menu' class='pure-u-sm-5-8 pure-u-md-5-8 pure-u-lg-5-8'>
+      <li><a href="#section-2" du-smooth-scroll du-scrollspy offset="15">About</a></li>
+      <li><a href="#section-3" du-smooth-scroll du-scrollspy offset="15">Engineering & Construction</a></li>
+      <li><a href="#section-4" du-smooth-scroll du-scrollspy offset="15">Hardwares</a></li>
+      <li><a href="#section-5" du-smooth-scroll du-scrollspy offset="15">Contact</a></li>
+    </ul>
+    <!-- <div id='search' class='pure-u-sm-1-4 pure-u-md-1-4 pure-u-lg-1-4'>search</div> -->
+  </nav>
+</header>
+<section id="section-1" class='pure-u-1'>
+  <a href="#section-2" du-smooth-scroll du-scrollspy offset="10"><span class='icon-arrow-down3'></span></a>
+</section>
+<section id="section-2" class='pure-u-1'>
+  <div class='l-box'>
+    <h2>인사말</h2>
+    <p>대규모 프로젝트에서의 실질적인 공사 경험과 노하우를 바탕으로한 안정적인 성과를 공유하는 기업</p>
+    <p>기본에 충실한 건설 서비스를 지원</p>
+    <p>안전을 바탕으로 최고의 품질을 지원하는 기업</p>
+  </div>
+</section>
+<section id="section-3" class='pure-u-1'>
+  <div class='l-box'>
+    <div id='engineering'>      
+      <h2>Engineering</h2>
+      <p>많은 기계 공학 기업, 특히 선진국에서 컴퓨터 지원 공학 (CAE) 기존의 설계 및 분석 프로세스, 2D 및 3D 솔리드 모델링 컴퓨터 지원 설계 (CAD 데이터)를 포함하여 프로그램에 반영하기 시작했다. <br> 이 방법은 보다 완전한 제품의 시각화를 용이하게 하는 등 많은 이점을 가지고 있다.<br>  기능 부품의 가상 어셈블리를 만드는 방법과 인터페이스 공차 설계에서 사용의 용이성이 뛰어나다.</p>
+      <!-- <p class='detail-btn'><a class='pure-button' href='#/engineering'>More details <span class='icon-arrow-right'></span></a></p> -->
+      <p class='detail-btn' ng-class="{active: tabId == 1}" ng-click="openen()"><a class='pure-button'>More details <span class='icon-arrow-right'></span></a></p>
+      <div id='page-engineering' ng-show='tabId == 1'>
+        <div class='contents'>
+          <a class='btn-close' ng-click='closeen()'><span class='icon-cross'></span></a>
+          <h1>Engineering</h1>
+          <p>많은 기계 공학 기업, 특히 선진국에서 컴퓨터 지원 공학 (CAE) 기존의 설계 및 분석 프로세스, 2D 및 3D 솔리드 모델링 컴퓨터 지원 설계 (CAD 데이터)를 포함하여 프로그램에 반영하기 시작했다.</p>
+          <p>이 방법은 보다 완전한 제품의 시각화를 용이하게 하는 등 많은 이점을 가지고 있다. </p>
+          <p class='last'>기능 부품의 가상 어셈블리를 만드는 방법과 인터페이스 공차 설계에서 사용의 용이성이 뛰어나다.</p>
+          <h1>Services</h1>
+          <ul>
+            <li class='light' ng-click='listId1 = !listId1'><p><span class="icon-check"></span>subtitle</p></li>
+            <div class='inside' ng-show='listId1'>
+              <p>- 111</p>
+              <p>- 111</p>
+              <p>- 111</p>
+            </div>
+            <li class='medium' ng-click='listId2 = !listId2'><p><span class="icon-check"></span>subtitle</p></li>
+            <div class='inside-d' ng-show='listId2'>
+              <p>- 222</p>
+              <p>- 222</p>
+              <p>- 222</p>
+            </div>
+            <li class='light' ng-click='listId3 = !listId3'><p><span class="icon-check"></span>subtitle</p></li>
+            <div class='inside' ng-show='listId3'>
+              <p>- 333</p>
+              <p>- 333</p>
+              <p>- 333</p>
+            </div>
+            <li class='medium' ng-click='listId4 = !listId4'><p><span class="icon-check"></span>subtitle</p></li>
+            <div class='inside-d' ng-show='listId4'>
+              <p>- 444</p>
+              <p>- 444</p>
+              <p>- 444</p>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id='construction'>      
+      <h2>Construction</h2>
+      <p>많은 기계 공학 기업, 특히 선진국에서 컴퓨터 지원 공학 (CAE) 기존의 설계 및 분석 프로세스, <br> 2D 및 3D 솔리드 모델링 컴퓨터 지원 설계 <br> (CAD 데이터)를 포함하여 프로그램에 반영하기 시작했다. <br> 이 방법은 보다 완전한 제품의 시각화를 용이하게 하는 등 많은 이점을 가지고 있다.</p>
+      <!-- <p class='detail-btn'><a class='pure-button' href='#/construction'>More details <span class='icon-arrow-right'></span></a></p> -->
+      <p class='detail-btn' ng-class="{active: tabId == 2}" ng-click="openco()"><a class='pure-button'>More details <span class='icon-arrow-right'></span></a></p>
+      <div id='page-construction' ng-show='tabId == 2'>
+        <div class='contents'>
+          <a class='btn-close' ng-click='closeco()'><span class='icon-cross'></span></a>
+          <h1>Construction</h1>
+          <p>많은 기계 공학 기업, 특히 선진국에서 컴퓨터 지원 공학 (CAE) 기존의 설계 및 분석 프로세스, 2D 및 3D 솔리드 모델링 컴퓨터 지원 설계 (CAD 데이터)를 포함하여 프로그램에 반영하기 시작했다.</p>
+          <p>기능 부품의 가상 <a href="#/hardwares" target='_blank'>어셈블리</a>를 만드는 방법과 인터페이스 공차 설계에서 사용의 용이성이 뛰어나다.</p>
+          <p class='last'>이 방법은 보다 완전한 제품의 시각화를 용이하게 하는 등 많은 이점을 가지고 있다.</p>
+          <h1>Services</h1>
+          <ul>
+            <li class='light' ng-click='listId1 = !listId1'><p><span class="icon-check"></span>subtitle</p></li>
+            <div class='inside' ng-show='listId1'>
+              <p>- 111</p>
+              <p>- 111</p>
+              <p>- 111</p>
+            </div>
+            <li class='medium' ng-click='listId2 = !listId2'><p><span class="icon-check"></span>subtitle</p></li>
+            <div class='inside-d' ng-show='listId2'>
+              <p>- 222</p>
+              <p>- 222</p>
+              <p>- 222</p>
+            </div>
+            <li class='light' ng-click='listId3 = !listId3'><p><span class="icon-check"></span>subtitle</p></li>
+            <div class='inside' ng-show='listId3'>
+              <p>- 333</p>
+              <p>- 333</p>
+              <p>- 333</p>
+            </div>
+            <li class='medium' ng-click='listId4 = !listId4'><p><span class="icon-check"></span>subtitle</p></li>
+            <div class='inside-d' ng-show='listId4'>
+              <p>- 444</p>
+              <p>- 444</p>
+              <p>- 444</p>
+            </div>
+          </ul>
+        </div>
+    </div>
+  </div>
+</section>
+<section id="section-4" class='pure-u-1'>
+  <h2>Hardwares</h2>
+  <div class='pure-g'>
+    <div id='hw1' class='pure-u-1 pure-u-sm-1-3 pure-u-md-1-3 pure-u-lg-1-5 hw'>
+      <a class='hw-wrp' href='#/hardwares/safety_materials' target='_blank'>
+        <div><img src='images/icons/icon01.jpg'></div>
+        <p>Safety materials</p>
+      </a>
+    </div>
+    <div id='hw2' class='pure-u-1 pure-u-sm-1-3 pure-u-md-1-3 pure-u-lg-1-5 hw'>
+      <a class='hw-wrp' href='#/hardwares/ecm'>
+        <div><img src='images/icons/icon02.jpg'></div>
+        <p>ECM</p>
+      </a>
+    </div>
+    <div id='hw3' class='pure-u-1 pure-u-sm-1-3 pure-u-md-1-3 pure-u-lg-1-5 hw'>
+      <a class='hw-wrp' href='#/hardwares/temporary_establishment_and_general_support'>
+        <div><img src='images/icons/icon03.jpg'></div>
+        <p>Temporary establishment</p>
+      </a>
+    </div>
+    <div id='hw4' class='pure-u-1 pure-u-sm-1-3 pure-u-md-1-3 pure-u-lg-1-5 hw'>
+      <a class='hw-wrp' href='#/hardwares/scaffold'>
+        <div><img src='images/icons/icon04.jpg'></div>
+        <p>Scaffold</p>
+      </a>
+    </div>
+    <div id='hw5' class='pure-u-1 pure-u-sm-1-3 pure-u-md-1-3 pure-u-lg-1-5 hw'>
+      <a class='hw-wrp' href='#/hardwares/eclectrical_materials'>
+        <div><img src='images/icons/icon05.jpg'></div>
+        <p>Eclectrical materials</p>
+      </a>
+    </div>
+    <div id='hw6' class='pure-u-1 pure-u-sm-1-3 pure-u-md-1-3 pure-u-lg-1-5 hw'>
+      <a class='hw-wrp' href='#/hardwares/concrete_basic_materials_and_tools'>
+        <div><img src='images/icons/icon06.jpg'></div>
+        <p>Concrete basic materials</p>
+      </a>
+    </div>
+    <div id='hw7' class='pure-u-1 pure-u-sm-1-3 pure-u-md-1-3 pure-u-lg-1-5 hw'>
+      <a class='hw-wrp' href='#/hardwares/brick_plastering'>
+        <div><img src='images/icons/icon07.jpg'></div>
+        <p>Brick, Plastering</p>
+      </a>
+    </div>
+    <div id='hw8' class='pure-u-1 pure-u-sm-1-3 pure-u-md-1-3 pure-u-lg-1-5 hw'>
+      <a class='hw-wrp' href='#/hardwares/qc'>
+        <div><img src='images/icons/icon08.jpg'></div>
+        <p>QC</p>
+      </a>
+    </div>
+    <div id='hw9' class='pure-u-1 pure-u-sm-1-3 pure-u-md-1-3 pure-u-lg-1-5 hw'>
+      <a class='hw-wrp' href='#/hardwares/PVC_pipe_and_fitting'>
+        <div><img src='images/icons/icon09.jpg'></div>
+        <p>PVC pipe & fitting</p>
+      </a>
+    </div>
+    <div id='hw10' class='pure-u-1 pure-u-sm-1-3 pure-u-md-1-3 pure-u-lg-1-5 hw'>
+      <a class='hw-wrp' href='#/hardwares/paint_and_silicone(RNPS)'>
+        <div><img src='images/icons/icon10.jpg'></div>
+        <p>Paint & silicone(RNPS)</p>
+      </a>
+    </div>
+    <div id='hw11' class='pure-u-1 pure-u-sm-1-3 pure-u-md-1-3 pure-u-lg-1-5 hw'>
+      <a class='hw-wrp' href='#/hardwares/fineal_cleaning'>
+        <div><img src='images/icons/icon11.jpg'></div>
+        <p>Fineal cleaning</p>
+      </a>
+    </div>
+    <div id='hw12' class='pure-u-1 pure-u-sm-1-3 pure-u-md-1-3 pure-u-lg-1-5 hw'>
+      <a class='hw-wrp' href='#/hardwares/survey_materials'>
+        <div><img src='images/icons/icon12.jpg'></div>
+        <p>Survey materials</p>
+      </a>
+    </div>
+    <div id='hw13' class='pure-u-1 pure-u-sm-1-3 pure-u-md-1-3 pure-u-lg-1-5 hw'>
+      <a class='hw-wrp' href='#/hardwares/admin_materials'>
+        <div class='icon' id='icon13'></div>
+        <p>Admin materials</p>
+      </a>
+    </div>
+    <div id='hw14' class='pure-u-1 pure-u-sm-1-3 pure-u-md-1-3 pure-u-lg-1-5 hw'>
+      <a class='hw-wrp' href=''>
+        <div><img src='images/icons/icon14.jpg'></div>
+        <p>Steel materials</p>
+      </a>
+    </div>
+    <div id='hw15' class='pure-u-1 pure-u-sm-1-3 pure-u-md-1-3 pure-u-lg-1-5 hw'>
+      <a class='hw-wrp' href='#/hardwares'>
+        <div><img src='images/icons/icon15.jpg'></div>
+        <p>All products</p>
+      </a>
+    </div>
+  </div>
+</section>
+<section id="section-5" class='pure-u-1'>
+  <div class='pure-u-1 pure-u-sm-1 pure-u-md-1-2 pure-u-lg-1-2'>
+    <div class='l-box'>
+      <h2>Contact</h2>
+      <p><span>Email</span><a class='link' href="mailto:rhino.han@gmail.com?Subject=Hello">rhino.han@gmail.com</a></p >
+      <p><span>Tel</span><a class='link' href="tel:65-6406-7235" cm_dontconvertlink>+65 6406 7235</a></p>
+      <p><span>Fax</span><a href="">+65 6409 2415</a></p>
+      <p><span>Kakao</span><a href="">rhino84</a></p>
+    </div>
   </div>
   <div class='pure-g'>
-  	<a class='pure-u-1-2 dine-block-inside western' href='#/western'><p>Western</p></a>
-  	<a class='pure-u-1-2 dine-block-inside restaurant' href='#/restaurant'><p>Restaurant</p></a>
+    <div class='pure-u-1'>
+      <div class='l-box'>
+        <h2 id='title-addr'>Address</h2>
+      </div>
+    </div>
+    <div class='pure-u-1 pure-u-sm-1 pure-u-md-1-2 pure-u-lg-1-2'>
+      <div class='m-box'>
+        <h3>95 Yishun street 81 #11-03, Singapore 768452</h3>
+        <a class='map' id='store1' href="https://www.google.com.sg/maps/place/95+Yishun+Street+81,+768452/data=!4m2!3m1!1s0x31da1410484328cf:0x820f4b4fcae7f42c?sa=X&ei=WuOzVJDLBJaTuATwsoCoDw&ved=0CB0Q8gEwAA" target='_blank'><div></div></a>
+      </div> 
+    </div>
+    <div class='pure-u-1 pure-u-sm-1 pure-u-md-1-2 pure-u-lg-1-2'>
+      <div class='m-box'>
+        <h3>No. 11 Woodland Close #06-15, Singapore 737853 </h3>
+        <a class='map' id='store2' href="https://www.google.com.sg/maps/place/11+Woodlands+Cl,+Singapore+737853/@1.4341349,103.8024438,17z/data=!3m1!4b1!4m2!3m1!1s0x31da1399374c6b3d:0xa8f48d590fad513a" target='_blank'><div></div></a>
+      </div> 
+    </div>
   </div>
-</div>
+</section>

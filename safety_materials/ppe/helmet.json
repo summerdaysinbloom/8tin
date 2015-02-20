@@ -1,0 +1,42 @@
+[
+  {
+    "item": "White",
+    "image": "images/safety_materials/helmet/white.png",
+    "name": "White"
+  },
+  {
+    "item": "Green",
+    "image": "images/safety_materials/helmet/green.png",
+    "name": "Green"
+  },
+  {
+    "item": "Red",
+    "image": "images/safety_materials/helmet/rby.png",
+    "name": "Red"
+  },
+  {
+    "item": "Blue",
+    "image": "images/safety_materials/helmet/rby.png",
+    "name": "Blue"
+  },
+  {
+    "item": "Yellow",
+    "image": "images/safety_materials/helmet/rby.png",
+    "name": "Yellow"
+  },
+  {
+    "item": "Helmet suspension set",
+    "image": "images/safety_materials/helmet/suspension_set.png",
+    "name": "Helmet suspension set"
+  },
+  {
+    "item": "Helmet suspension",
+    "image": "images/safety_materials/helmet/suspension.png",
+    "name": "Helmet suspension"
+  },
+  {
+    "item": "Ratchet",
+    "image": "images/safety_materials/helmet/ratchet.png",
+    "name": "Ratchet helmet suspension"
+  }
+]

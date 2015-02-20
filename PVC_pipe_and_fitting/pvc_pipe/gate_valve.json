@@ -1,0 +1,12 @@
+[
+	{
+		"item" : "PVC0010", 
+		"image": "images/PVC/PVC0010.png", 
+		"name": "Gate valve-stainless steel"
+	},
+	{
+		"item" : "PVC0011", 
+		"image": "images/PVC/PVC0011.png", 
+		"name": "Gate valve-brass"
+	}
+]

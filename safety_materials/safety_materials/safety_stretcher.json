@@ -1,0 +1,22 @@
+[
+	{
+		"item" : "RNS0082", 
+		"image": "images/safety_materials/RNS0082.png", 
+		"name": "Double Foidaway Stretcher"
+	},
+	{
+		"item" : "RNS0083", 
+		"image": "images/safety_materials/RNS0083.png", 
+		"name": "Aluminum Stretcher"
+	},
+	{
+		"item" : "RNS0084", 
+		"image": "images/safety_materials/RNS0084.png", 
+		"name": "Two Foidaway Stretcher"
+	},
+	{
+		"item" : "RNS0085", 
+		"image": "images/safety_materials/RNS0085.png", 
+		"name": "Four Foidaway Stretcher"
+	}
+]

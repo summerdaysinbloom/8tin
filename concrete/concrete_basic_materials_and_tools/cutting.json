@@ -1,0 +1,27 @@
+[
+	{
+		"item" : "RNC0039", 
+		"image": "images/concrete/RNC0039.png", 
+		"name": "Husqvarna Self-Propelled Concrete Saw"
+	},
+	{
+		"item" : "RNC0040", 
+		"image": "images/concrete/RNC0040.png", 
+		"name": "Diamond Cut wheel(Dry)"
+	},
+	{
+		"item" : "RNC0041", 
+		"image": "images/concrete/RNC0041.png", 
+		"name": "Diamond Cut wheel(Wet)"
+	},
+	{
+		"item" : "RNC0042", 
+		"image": "images/concrete/RNC0042.png", 
+		"name": "Diamond Cut wheel(Tile cutting)"
+	},
+	{
+		"item" : "RNC0043", 
+		"image": "images/concrete/RNC0043.png", 
+		"name": "Diamond Saw Machine"
+	}
+]

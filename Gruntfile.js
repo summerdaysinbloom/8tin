@@ -1,4 +1,6 @@
 module.exports = function(grunt) {
+    require('load-grunt-tasks')(grunt);
+
     grunt.initConfig({
         connect: {
             server: {
@@ -10,10 +12,36 @@ module.exports = function(grunt) {
                 }
             }
         },
+        watch: {
+            js: {
+                files: ['lib/**/*.js'],
+                tasks: ['concat']
+            },
+            uglify: {
+                files: ['lib/**/*.js'],
+                tasks: ['uglify']
+            },
+            sass: {
+                files: 'sass/**/*.scss',
+                tasks: ['sass']
+            },
+            cssmin: {
+                files: ['style/**/*.css'],
+                tasks: ['cssmin']
+            }
+        },
+        uglify: {
+            dev: {
+                files: {
+                    'assets/output.min.js': ['lib/**/*.js']
+                }
+            }
+        },
         cssmin: {
             combine: {
                 files: {
-                    'style/style.min.css': [
+                    'assets/style.min.css': [
+                        'style/normalize.css',
                         'style/font.css',
                         'style/style.css'
                     ]
@@ -26,29 +54,19 @@ module.exports = function(grunt) {
                     style: 'compressed'
                 },
                 files: {
-                    'style/font.css' : 'sass/font.scss',
+                    'style/font.css': 'sass/font.scss',
                     'style/style.css' : 'sass/style.scss'
                 }
             }
         },
-        watch: {
-            sass: {
-                files: 'sass/**/*.scss',
-                tasks: ['sass']
-            },
-            cssmin: {
-                files: ['style/**/*.css'],
-                tasks: ['cssmin']
+        concat: {
+            dist: {
+                src: ['lib/**/*.js'],
+                dest: 'main.js'
             }
         }
     });
 
-    grunt.loadNpmTasks('grunt-contrib-connect');
-    grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-contrib-cssmin');
-    grunt.loadNpmTasks('grunt-contrib-sass');
-    grunt.loadNpmTasks('grunt-contrib-uglify');
- 
     // Compile less task.
     grunt.registerTask('min', ['watch']);   
     grunt.registerTask('default', ['connect']);

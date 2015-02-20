@@ -1,0 +1,27 @@
+
+[
+	{
+		"item" : "RNS0136", 
+		"image": "images/safety_materials/RNS0136.png", 
+		"name": "Sand Bucket"
+	},
+	{
+		"item" : "RNS0143", 
+		"image": "images/safety_materials/RNS0143.png", 
+		"name": "Four Legged assembly"
+	},
+	{
+		"item" : "RNS0144", 
+		"image": "images/safety_materials/RNS0144.png", 
+		"name": "Single Leg Slings"
+	},
+	{
+		"item" : "RNS0145", 
+		"image": "images/safety_materials/RNS0145.png", 
+		"name": "Us T Forged Bow Shack"
+	}
+]
+	
+	
+	
+	

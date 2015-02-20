@@ -1,0 +1,22 @@
+[
+	{
+		"item" : "RNS0035", 
+		"image": "images/safety_materials/RNS0035.png", 
+		"name": "Multi Scarf"
+	},
+	{
+		"item" : "RNS0036", 
+		"image": "images/safety_materials/RNS0036.png", 
+		"name": "Face Protection"
+	},
+	{
+		"item" : "RNS0037", 
+		"image": "images/safety_materials/RNS0037.png", 
+		"name": "Arm Protection"
+	},
+	{
+		"item" : "RNS0038", 
+		"image": "images/safety_materials/RNS0038.png", 
+		"name": "Gazters Green/red"
+	}
+]

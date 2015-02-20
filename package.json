@@ -1,5 +1,5 @@
 {
-  "name": "demo",
+  "name": "angularApp",
   "engines": {
     "node": ">=0.9.0"
   },

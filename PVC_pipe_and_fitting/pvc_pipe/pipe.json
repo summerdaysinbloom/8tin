@@ -1,0 +1,47 @@
+[
+	{
+		"item" : "PVC0001", 
+		"image": "images/PVC/PVC0001.png", 
+		"name": "Coupling"
+	},
+	{
+		"item" : "PVC0002", 
+		"image": "images/PVC/PVC0002.png", 
+		"name": "Screw plug"
+	},
+	{
+		"item" : "PVC0003", 
+		"image": "images/PVC/PVC0003.png", 
+		"name": "Reducing Tee"
+	},
+	{
+		"item" : "PVC0004", 
+		"image": "images/PVC/PVC0004.png", 
+		"name": "Male adapter"
+	},
+	{
+		"item" : "PVC0005", 
+		"image": "images/PVC/PVC0005.png", 
+		"name": "End cap"
+	},
+	{
+		"item" : "PVC0006", 
+		"image": "images/PVC/PVC0006.png", 
+		"name": "Reducing elbow"
+	},
+	{
+		"item" : "PVC0007", 
+		"image": "images/PVC/PVC0007.png", 
+		"name": "Reducing bush"
+	},
+	{
+		"item" : "PVC0008", 
+		"image": "images/PVC/PVC0008.png", 
+		"name": "Male coupling"
+	},
+	{
+		"item" : "PVC0009", 
+		"image": "images/PVC/PVC0009.png", 
+		"name": "Ball valve"
+	}
+]

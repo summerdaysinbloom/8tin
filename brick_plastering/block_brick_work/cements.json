@@ -1,0 +1,22 @@
+[
+	{
+		"item" : "RNB0005", 
+		"image": "images/brick_plastering/RNB0005.png", 
+		"name": "Tile Cement"
+	},
+	{
+		"item" : "RNB0006", 
+		"image": "images/brick_plastering/RNB0006.png", 
+		"name": "Emix Render"
+	},
+	{
+		"item" : "RNB0007", 
+		"image": "images/brick_plastering/RNB0007.png", 
+		"name": "Eco Plaster Cement"
+	},
+	{
+		"item" : "RNB0010", 
+		"image": "images/brick_plastering/RNB0010.png", 
+		"name": "White Cement"
+	}
+]

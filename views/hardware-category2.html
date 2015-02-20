@@ -1,0 +1,21 @@
+<div class='pure-u-1 category-bar-orange' id='category-bar-fixed' ng-controller='hwCate2Ctrl'>
+  <div>
+    <p>
+      <a class='cate-level' href="#/">Home</a>
+      <a class='item-title' href="#/hardwares"><span class='icon-arrow-right'></span> Hardwares</a>
+      <a id='item-title' href="#/hardwares/{{title}}"> <span class='icon-arrow-right'></span> {{titletext}}</a>
+      <a id='item-title' href="#/hardwares/{{title}}/{{subtitle}}"><span class='icon-arrow-right'></span> {{subtitletext}}</a>
+    </p>
+  </div>
+</div>
+<div class='pure-u-1' id='hardware-items'>
+  <div>
+    <ul class='pure-u-1 hardwares-list'>
+      <li class='pureu-1' ng-repeat='item in hardwares2'>
+        <a href='#/hardwares/{{title}}/{{subtitle}}/{{item.category_id}}'>
+          <h3>{{item.title}}</h3>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+[
+	{
+		"item" : "RNC-AirBreakersTPB", 
+		"image": "images/concrete/RNC-AirBreakersTPB.png", 
+		"name": "Air Breakers TPB"
+	},
+	{
+		"item" : "RNC-TPB60", 
+		"image": "images/concrete/RNC-TPB60.png", 
+		"name": "TPB60"
+	}
+]

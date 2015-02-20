@@ -1,0 +1,32 @@
+[
+	{
+		"item" : "RNEL0001", 
+		"image": "images/electrical_materials/RNEL0001.png", 
+		"name": "Multimeter"
+	},
+	{
+		"item" : "RNEL0002", 
+		"image": "images/electrical_materials/RNEL0002.png", 
+		"name": "Hitester"
+	},
+	{
+		"item" : "RNEL0003", 
+		"image": "images/electrical_materials/RNEL0003.png", 
+		"name": "Clamp on leak Hitester"
+	},
+	{
+		"item" : "RNEL0004", 
+		"image": "images/electrical_materials/RNEL0004.png", 
+		"name": "1.5kva Transformer"
+	},
+	{
+		"item" : "RNEL0005", 
+		"image": "images/electrical_materials/RNEL0005.png", 
+		"name": "Flood Light 400W"
+	},
+	{
+		"item" : "RNEL0006", 
+		"image": "images/electrical_materials/RNEL0006.png", 
+		"name": "Ballast"
+	}
+]

@@ -1,0 +1,42 @@
+[
+	{
+		"item" : "wallsocket", 
+		"image": "images/electrical_materials/wallsocket.png", 
+		"name": "Wall socket"
+	},
+	{
+		"item" : "flanged", 
+		"image": "images/electrical_materials/flanged.png", 
+		"name": "Flanged Sockets"
+	},
+	{
+		"item" : "plug", 
+		"image": "images/electrical_materials/plug.png", 
+		"name": "Plug"
+	},
+	{
+		"item" : "socket", 
+		"image": "images/electrical_materials/socket.png", 
+		"name": "Socket"
+	},
+	{
+		"item" : "wall_mounted_plugs", 
+		"image": "images/electrical_materials/wall_mounted_plugs.png", 
+		"name": "Wall Mounted Plugs"
+	},
+	{
+		"item" : "ELCB", 
+		"image": "images/electrical_materials/ELCB.png", 
+		"name": "ELCB Distribution Box"
+	},
+	{
+		"item" : "residual_current2", 
+		"image": "images/electrical_materials/residual_current2.png", 
+		"name": "Residual Current - 2poles"
+	},
+	{
+		"item" : "residual_current4", 
+		"image": "images/electrical_materials/residual_current4.png", 
+		"name": "Residual Current - 4poles"
+	}
+]

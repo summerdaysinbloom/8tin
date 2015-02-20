@@ -1,0 +1,17 @@
+[
+	{
+		"item" : "RNS0039", 
+		"image": "images/safety_materials/RNS0039.png", 
+		"name": "Safety Harness"
+	},
+	{
+		"item" : "RNS0040", 
+		"image": "images/safety_materials/RNS0040.png", 
+		"name": "Shock Absorber Hook"
+	},
+	{
+		"item" : "RNS0041", 
+		"image": "images/safety_materials/RNS0041.png", 
+		"name": "Headphone" 
+	}
+]

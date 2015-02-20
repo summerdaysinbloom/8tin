@@ -1,0 +1,30 @@
+[
+  {
+    "category_id": "electrical_tools",
+    "title": "Electrical Tool & Materials"
+  },
+  {
+    "category_id": "weather_protecter_isolating_switches",
+    "title": "Weather Protected Isolating Switches"
+  },
+  {
+    "category_id":"wall_socket_plug",
+    "title":"Wall Socket Plug" 
+  },
+  {
+    "category_id":"mcb",
+    "title":"Miniature Circuit Breakers(MCB)" 
+  },
+  {
+    "category_id":"lightning",
+    "title":"Lightning" 
+  },
+  {
+    "category_id":"earth_rod",
+    "title":"Earth Rod" 
+  },
+  {
+    "category_id":"bonds_clamps",
+    "title":"Bonds & Clamps" 
+  }
+]

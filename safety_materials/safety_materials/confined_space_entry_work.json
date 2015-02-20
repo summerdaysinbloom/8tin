@@ -1,0 +1,17 @@
+[
+	{
+		"item" : "portable_series_axial_blower", 
+		"image": "images/safety_materials/portable_series_axial_blower.png",
+		"name": "Portable Series Axial Blower"
+	},
+	{
+		"item" : "movable_blower_series", 
+		"image": "images/safety_materials/movable_blower_series.png",
+		"name": "Movable Blower Series"
+	},
+	{
+		"item" : "spiral_ducting_hose", 
+		"image": "images/safety_materials/spiral_ducting_hose.png",
+		"name": "Spiral Ducting Hose"
+	}
+]

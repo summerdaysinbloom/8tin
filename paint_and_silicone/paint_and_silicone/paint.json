@@ -1,0 +1,47 @@
+[
+	{
+		"item" : "PS01", 
+		"image": "images/paint/PS01.png", 
+		"name": "Enamel/Emulsion paint"
+	},
+	{
+		"item" : "PS02", 
+		"image": "images/paint/PS02.png", 
+		"name": "Spray paint"
+	},
+	{
+		"item" : "PS03", 
+		"image": "images/paint/PS03.png", 
+		"name": "Paint roller"
+	},
+	{
+		"item" : "PS04", 
+		"image": "images/paint/PS04.png", 
+		"name": "Mohair roller refill"
+	},
+	{
+		"item" : "PS05", 
+		"image": "images/paint/PS05.png", 
+		"name": "Paint stick"
+	},
+	{
+		"item" : "PS06", 
+		"image": "images/paint/PS06.png", 
+		"name": "Paint scraper"
+	},
+	{
+		"item" : "PS07", 
+		"image": "images/paint/PS07.png", 
+		"name": "Silicone gun"
+	},
+	{
+		"item" : "PS08", 
+		"image": "images/paint/PS08.png", 
+		"name": "Thinner"
+	},
+	{
+		"item" : "PS09", 
+		"image": "images/paint/PS09.png", 
+		"name": "Sheetrock"
+	}
+]

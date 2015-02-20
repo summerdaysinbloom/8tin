@@ -1,0 +1,18 @@
+[
+  {
+    "category_id": "store",
+    "title": "Store"
+  },
+  {
+    "category_id":"tapes",
+    "title":"Tapes" 
+  },
+  { 
+    "category_id":"drain_cleaner",
+    "title":"Drain Cleaner"
+  },
+  {
+    "category_id": "screws",
+    "title": "Screws"
+  }
+]

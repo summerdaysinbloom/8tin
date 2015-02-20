@@ -1,0 +1,17 @@
+[
+	{
+		"item" : "RNS0024", 
+		"image": "images/safety_materials/RNS0024.png", 
+		"name": "3M 8210"
+	},
+	{
+		"item" : "RNS0025", 
+		"image": "images/safety_materials/RNS0025.png", 
+		"name": "Dust Mask"
+	},
+	{
+		"item" : "RNS0026", 
+		"image": "images/safety_materials/RNS0026.png", 
+		"name": "Surgical Mask"
+	}
+]

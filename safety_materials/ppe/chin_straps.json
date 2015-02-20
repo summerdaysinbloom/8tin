@@ -1,0 +1,22 @@
+[
+	{
+		"item" : "PVC", 
+		"image": "images/safety_materials/pvc.png", 
+		"name": "PVC"
+	},
+	{
+		"item" : "RNS0007", 
+		"image": "images/safety_materials/RNS0007.png", 
+		"name": "RNS0007"
+	},
+	{
+		"item" : "RNS0008", 
+		"image": "images/safety_materials/RNS0008.png", 
+		"name": "RNS0008"
+	},
+	{
+		"item" : "RNS0009", 
+		"image": "images/safety_materials/RNS0009.png", 
+		"name": "RNS0009"
+	}
+]

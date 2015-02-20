@@ -1,0 +1,17 @@
+[
+	{
+		"item" : "RNB0001", 
+		"image": "images/brick_plastering/RNB0001.png", 
+		"name": "Foam trowel"
+	},
+	{
+		"item" : "RNB0002", 
+		"image": "images/brick_plastering/RNB0002.png", 
+		"name": "High carbon steel stowel"
+	},
+	{
+		"item" : "RNB0003", 
+		"image": "images/brick_plastering/RNB0003.png", 
+		"name": "Flexible steel trowel"
+	}
+]

@@ -1,0 +1,27 @@
+[
+	{
+		"item" : "RNC-TE6TA36", 
+		"image": "images/concrete/RNC-TE6TA36.png", 
+		"name": "Hilti TE6TA36"
+	},
+	{
+		"item" : "RNC-GBH36V", 
+		"image": "images/concrete/RNC-GBH36V.png", 
+		"name": "BOSCH GBH 36V"
+	},
+	{
+		"item" : "RNC-BHRT241", 
+		"image": "images/concrete/RNC-BHRT241.png", 
+		"name": "Makita BHRT241"
+	},
+	{
+		"item" : "RNC-DiamondCoringSystem", 
+		"image": "images/concrete/RNC-DiamondCoringSystem.png", 
+		"name": "HILTI Diamond Coring System"
+	},
+	{
+		"item" : "RNC-TE50", 
+		"image": "images/concrete/RNC-TE50.png", 
+		"name": "HILTI Drilling and Demolition Combihammer"
+	}
+]

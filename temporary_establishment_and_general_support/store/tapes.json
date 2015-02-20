@@ -1,0 +1,72 @@
+[
+	{
+		"item" : "RNG0084",
+		"image" : "images/temp_est/RNG0084.png",
+		"name" : "Masking Tape"
+	},
+	{
+		"item" : "RNG0085",
+		"image" : "images/temp_est/RNG0085.png",
+		"name" : "Cloth Tape"
+	},
+	{
+		"item" : "RNG0086",
+		"image" : "images/temp_est/RNG0086.png",
+		"name" : "PVC Insulation Tape"
+	},
+	{
+		"item" : "RNG0087",
+		"image" : "images/temp_est/RNG0087.png",
+		"name" : "Rubber Splicing Tape"
+	},
+	{
+		"item" : "RNG0088",
+		"image" : "images/temp_est/RNG0088.png",
+		"name" : "PVC Protection Tape"
+	},
+	{
+		"item" : "RNG0089",
+		"image" : "images/temp_est/RNG0089.png",
+		"name" : "Electeical Insulation Tape"
+	},
+	{
+		"item" : "RNG0090",
+		"image" : "images/temp_est/RNG0090.png",
+		"name" : "Double Side Tape with Sponge"
+	},
+	{
+		"item" : "RNG0091",
+		"image" : "images/temp_est/RNG0091.png",
+		"name" : "Double Side Foam Tape"
+	},
+	{
+		"item" : "RNG0092",
+		"image" : "images/temp_est/RNG0092.png",
+		"name" : "Scotch Splicing Tape Black"
+	},
+	{
+		"item" : "RNG0093",
+		"image" : "images/temp_est/RNG0093.png",
+		"name" : "Taflon Tape"
+	},
+	{
+		"item" : "RNG0094",
+		"image" : "images/temp_est/RNG0094.png",
+		"name" : "Double Side Tissue Tape"
+	},
+	{
+		"item" : "RNG0095",
+		"image" : "images/temp_est/RNG0095.png",
+		"name" : "OPP Tape"
+	},
+	{
+		"item" : "RNG0096",
+		"image" : "images/temp_est/RNG0096.png",
+		"name" : "RNG0096"
+	},
+	{
+		"item" : "RNG0097",
+		"image" : "images/temp_est/RNG0097.png",
+		"name" : "Sponge Tape"
+	}
+]

@@ -1,0 +1,22 @@
+[
+	{
+		"item" : "RNS0052", 
+		"image": "images/safety_materials/RNS0052.png", 
+		"name": "Red/White"
+	},
+	{
+		"item" : "RNS0053", 
+		"image": "images/safety_materials/RNS0053.png", 
+		"name": "Black/Yellow"
+	},
+	{
+		"item" : "RNS0055", 
+		"image": "images/safety_materials/RNS0055.png", 
+		"name": "Noctilucence"
+	},
+	{
+		"item" : "RNS0056", 
+		"image": "images/safety_materials/RNS0056.png", 
+		"name": "Noctilucence"
+	}
+]

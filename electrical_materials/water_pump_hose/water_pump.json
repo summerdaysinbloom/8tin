@@ -1,0 +1,17 @@
+[
+	{
+		"item" : "krs series", 
+		"image": "images/electrical_materials/krs-series.png", 
+		"name": "KRS series"
+	},
+	{
+		"item" : "ktv series", 
+		"image": "images/electrical_materials/ktv-series.png", 
+		"name": "KRS series"
+	},
+	{
+		"item" : "hs series", 
+		"image": "images/electrical_materials/hss-series.png", 
+		"name": "HS Series"
+	}
+]

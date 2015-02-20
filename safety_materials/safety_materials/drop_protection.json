@@ -1,0 +1,22 @@
+[
+	{
+		"item" : "RNS0090", 
+		"image": "images/safety_materials/RNS0090.png",
+		"name": "Drop Protection Net Blue/Green"
+	},
+	{
+		"item" : "RNS0091",
+		"image": "images/safety_materials/RNS0091.png", 
+		"name": "Over Speed Rack"
+	},
+	{
+		"item" : "RNS0092", 
+		"image": "images/safety_materials/RNS0092.png", 
+		"name": "Protection Eletrical Line"
+	},
+	{
+		"item" : "RNS0093", 
+		"image": "images/safety_materials/RNS0093.png", 
+		"name": "Life Buoy"
+	}
+]

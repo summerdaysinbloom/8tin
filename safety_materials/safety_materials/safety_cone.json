@@ -1,0 +1,17 @@
+[
+	{
+		"item" : "RNS0049", 
+		"image": "images/safety_materials/RNS0049.png", 
+		"name": "Safety Cone A"
+	},
+	{
+		"item" : "RNS0050", 
+		"image": "images/safety_materials/RNS0050.png", 
+		"name": "Safety Cone B"
+	},
+	{
+		"item" : "RNS0051", 
+		"image": "images/safety_materials/RNS0051.png", 
+		"name": "Safety Cone C"
+	}
+]

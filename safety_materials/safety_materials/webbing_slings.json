@@ -1,0 +1,17 @@
+[	
+	{
+		"item" : "RNS0146", 
+		"image": "images/safety_materials/RNS0146.png", 
+		"name": "Leg with master Lind & Hock"
+	},
+	{
+		"item" : "RNS0147", 
+		"image": "images/safety_materials/RNS0147.png", 
+		"name": "Chain Block"
+	},
+	{
+		"item" : "RNS0148", 
+		"image": "images/safety_materials/RNS0148.png", 
+		"name": "Webbing slings"
+	}
+]

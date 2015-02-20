@@ -1,0 +1,57 @@
+[
+	{
+		"item" : "RNSC0001", 
+		"image": "images/scaffold/RNSC0001.png", 
+		"name": "GI pipe"
+	},
+	{
+		"item" : "RNSC0002", 
+		"image": "images/scaffold/RNSC0002.png", 
+		"name": "Fixed clamp"
+	},
+	{
+		"item" : "RNSC0003", 
+		"image": "images/scaffold/RNSC0003.png", 
+		"name": "Swivel clamp"
+	},
+	{
+		"item" : "RNSC0004", 
+		"image": "images/scaffold/RNSC0004.png", 
+		"name": "Sleeve coupler"
+	},
+	{
+		"item" : "RNSC0005", 
+		"image": "images/scaffold/RNSC0005.png", 
+		"name": "Bean clamp"
+	},
+	{
+		"item" : "RNSC0006", 
+		"image": "images/scaffold/RNSC0006.png", 
+		"name": "Plank clamp"
+	},
+	{
+		"item" : "RNSC0007", 
+		"image": "images/scaffold/RNSC0007.png", 
+		"name": "Expanding joint pin"
+	},
+	{
+		"item" : "RNSC0008", 
+		"image": "images/scaffold/RNSC0008.png", 
+		"name": "Jack base"
+	},
+	{
+		"item" : "RNSC0009", 
+		"image": "images/scaffold/RNSC0009.png", 
+		"name": "Base plate"
+	},
+	{
+		"item" : "RNSC0010", 
+		"image": "images/scaffold/RNSC0010.png", 
+		"name": "Pipe joint"
+	},
+	{
+		"item" : "RNSC0011", 
+		"image": "images/scaffold/RNSC0011.png", 
+		"name": "Steel plank"
+	}
+]

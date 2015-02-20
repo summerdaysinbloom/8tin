@@ -1,0 +1,72 @@
+[
+	{
+		"item": "RNS0149",
+		"image": "images/safety_materials/RNS0149.png",
+		"name": "Insect Repellent"
+	},
+	{
+		"item": "RNS0150",
+		"image": "images/safety_materials/RNS0150.png",
+		"name": "Anti Malariaoil"
+	},
+	{
+		"item": "RNS0151",
+		"image": "images/safety_materials/RNS0151.png",
+		"name": "Back Sprayer"
+	},
+	{
+		"item": "RNS0152",
+		"image": "images/safety_materials/RNS0152.png",
+		"name": "Titan Sprayer"
+	},
+	{
+		"item": "RNS0153",
+		"image": "images/safety_materials/RNS0153.png",
+		"name": "Insect Spray"
+	},
+	{
+		"item": "RNS0154",
+		"image": "images/safety_materials/RNS0154.png",
+		"name": "Anti Cockroach"
+	},
+	{
+		"item": "RNS0155",
+		"image": "images/safety_materials/RNS0155.png",
+		"name": "Silt Fence"
+	},
+	{
+		"item": "RNS0156",
+		"image": "images/safety_materials/RNS0156.png",
+		"name": "Rat Trap"
+	},
+	{
+		"item": "RNS0157",
+		"image": "images/safety_materials/RNS0157.png",
+		"name": "Rubbish Bag"
+	},
+	{
+		"item": "RNS0158",
+		"image": "images/safety_materials/RNS0158.png",
+		"name": "Sprayer Head(Water gun)"
+	},
+	{
+		"item": "RNS0159",
+		"image": "images/safety_materials/RNS0159.png",
+		"name": "Chunosuke(Big scissor)"
+	},
+	{
+		"item": "RNS0160",
+		"image": "images/safety_materials/RNS0160.png",
+		"name": "Wheel Barrow"
+	},
+	{
+		"item": "RNS0161",
+		"image": "images/safety_materials/RNS0161.png",
+		"name": "Concrete Pail"
+	},
+	{
+		"item": "RNS0162",
+		"image": "images/safety_materials/RNS0162.png",
+		"name": "Square Shovel"
+	}
+]

@@ -1,0 +1,53 @@
+[
+	{
+		"item" : "RNS0066", 
+		"image": "images/safety_materials/RNS0066.png", 
+		"name": "Safety Stick" 
+	},
+	{
+		"item" : "RNS0067", 
+		"image": "images/safety_materials/RNS0067.png", 
+		"name": "Safety Barricades" 
+	},
+	{
+		"item" : "RNS0068", 
+		"image": "images/safety_materials/RNS0068.png", 
+		"name": "Barricades A Type" 
+	},
+	{
+		"item" : "RNS0069", 
+		"image": "images/safety_materials/RNS0069.png", 
+		"name": "Barricades B Type" 
+	},
+	{
+		"item" : "RNS0070", 
+		"image": "images/safety_materials/RNS0070.png", 
+		"name": "Barricades C Type" 
+	},
+	{
+		"item" : "RNS0071", 
+		"image": "images/safety_materials/RNS0071.png", 
+		"name": "Barricades D Type" 
+	},
+	{
+		"item" : "RNS0072", 
+		"image": "images/safety_materials/RNS0072.png", 
+		"name": "Sola Attention Light" 
+	},
+	{
+		"item" : "RNS0073", 
+		"image": "images/safety_materials/RNS0073.png", 
+		"name": "Sola Attention Light" 
+	},
+	{
+		"item" : "RNS0074", 
+		"image": "images/safety_materials/RNS0074.png", 
+		"name": "Barricades E Type" 
+	},
+	{
+		"item" : "RNS0075", 
+		"image": "images/safety_materials/RNS0075.png", 
+		"name": "Barricades F Type"
+	}
+]
+	

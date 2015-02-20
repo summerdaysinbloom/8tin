@@ -1,0 +1,17 @@
+[
+	{
+		"item" : "RNS0046", 
+		"image": "images/safety_materials/RNS0046.png",
+		"name": "Safety Net Green"
+	},
+	{
+		"item" : "RNS0047", 
+		"image": "images/safety_materials/RNS0047.png",
+		"name": "Safety Net Orange"
+	},
+	{
+		"item" : "RNS0048", 
+		"image": "images/safety_materials/RNS0048.png",
+		"name": "PVC Chain"
+	}
+]

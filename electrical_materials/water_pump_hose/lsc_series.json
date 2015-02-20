@@ -1,0 +1,62 @@
+[
+	{
+		"item" : "dewateringsb", 
+		"image": "images/electrical_materials/dewateringsb.png", 
+		"name": "Dewatering SB pump"
+	},
+	{
+		"item" : "dewateringcentrifugal", 
+		"image": "images/electrical_materials/dewateringcentrifugal.png", 
+		"name": "Dewatering Centrifugal"
+	},
+	{
+		"item" : "RNEL0118", 
+		"image": "images/electrical_materials/RNEL0118.png", 
+		"name": "Pump oil"
+	},
+	{
+		"item" : "lb800", 
+		"image": "images/electrical_materials/lb800.png", 
+		"name": "LB800"
+	},
+	{
+		"item" : "pvcgardenhose", 
+		"image": "images/electrical_materials/pvcgardenhose.png", 
+		"name": "PVC Garden Hose"
+	},
+	{
+		"item" : "highnetgardenhose", 
+		"image": "images/electrical_materials/highnetgardenhose.png", 
+		"name": "LB800"
+	},
+	{
+		"item" : "pvcsteelsuction", 
+		"image": "images/electrical_materials/pvcsteelsuction.png", 
+		"name": "PVC Steel Suction Hose"
+	},
+	{
+		"item" : "sunnyhose", 
+		"image": "images/electrical_materials/sunnyhose.png", 
+		"name": "Sunny Hose"
+	},
+	{
+		"item" : "hosemender", 
+		"image": "images/electrical_materials/hosemender.png", 
+		"name": "Hose mender"
+	},
+	{
+		"item" : "aluminiumnozzle", 
+		"image": "images/electrical_materials/aluminiumnozzle.png", 
+		"name": "Aluminium Branch pipe Nozzle"
+	},
+	{
+		"item" : "douglebolt", 
+		"image": "images/electrical_materials/douglebolt.png", 
+		"name": "Double Bolt Clamp"
+	},
+	{
+		"item" : "aircompressorhose", 
+		"image": "images/electrical_materials/aircompressorhose.png", 
+		"name": "Air compressor hose"
+	}
+]

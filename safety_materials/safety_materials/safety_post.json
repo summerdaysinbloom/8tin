@@ -1,0 +1,18 @@
+[
+	{
+		"item" : "wink_line(sola_type)", 
+		"image": "images/octocat.png", 
+		"name": "Wink Line(Sola type)"
+	},
+	{
+	
+		"item" : "wink_line(electrical_type)", 
+		"image": "images/octocat.png", 
+		"name": "Wink Line(Electrical type)"
+	},
+	{
+		"item" : "wink_line(battery_type)", 
+		"image": "images/octocat.png", 
+		"name": "Wink Line(Battery type)" 
+	}
+]

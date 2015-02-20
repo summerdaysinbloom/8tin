@@ -1,0 +1,20 @@
+<div class='pure-u-1 category-bar-orange' ng-controller='hardwaresCtrl'>
+  <div>
+    <p>
+    <!-- <span class='icon-layout'></span> -->
+      <a class='cate-level' href="#/">Home</a>
+      <a id='item-title' href="#/search"><span class='icon-arrow-right'></span> Search results</a>
+    </p>
+  </div>
+</div>
+<div class='pure-u-1' id='hardware-items'>
+  <div>
+    <ul class='pure-u-1 hardwares-list'>
+      <li class='pure-u-1' ng-repeat="item in Data | filter: data | check:'filteredItems' | orderBy: 'name' ">
+        <a href="#/hardwares{{item.url}}">
+          <h3>{{item.name}}</h3>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,142 @@
+[
+	{
+		"item" : "RNG0115",
+		"image" : "images/temp_est/RNG0115.png",
+		"name": "Bugle Head Screw"
+	},
+	{
+		"item" : "RNG0116",
+		"image" : "images/temp_est/RNG0116.png",
+		"name": "Drysall Screw Fine"
+	},
+	{
+		"item" : "RNG0117",
+		"image" : "images/temp_est/RNG0117.png",
+		"name": "Hex Washer Head Screw"
+	},
+	{
+		"item" : "RNG0118",
+		"image" : "images/temp_est/RNG0118.png",
+		"name": "Hex Washer Head"
+	},
+	{
+		"item" : "RNG0119",
+		"image" : "images/temp_est/RNG0119.png",
+		"name": "Self Drilling Screw"
+	},
+	{
+		"item" : "RNG0120",
+		"image" : "images/temp_est/RNG0120.png",
+		"name": "flat Head Slotted Screw"
+	},
+	{
+		"item" : "RNG0121",
+		"image" : "images/temp_est/RNG0121.png",
+		"name": "Hex Head"
+	},
+	{
+		"item" : "RNG0122",
+		"image" : "images/temp_est/RNG0122.png",
+		"name": "Oval Head Philip"
+	},
+	{
+		"item" : "RNG0123",
+		"image" : "images/temp_est/RNG0123.png",
+		"name": "Pan Head Philip Recess Screw"
+	},
+	{
+		"item" : "RNG0124",
+		"image" : "images/temp_est/RNG0124.png",
+		"name": "Pan Head Slotted Screw"
+	},
+	{
+		"item" : "RNG0125",
+		"image" : "images/temp_est/RNG0125.png",
+		"name": "Pilot"
+	},
+	{
+		"item" : "RNG0126",
+		"image" : "images/temp_est/RNG0126.png",
+		"name": "Hex Head"
+	},
+	{
+		"item" : "RNG0127",
+		"image" : "images/temp_est/RNG0127.png",
+		"name": "Bolt Anchor A"
+	},
+	{
+		"item" : "RNG0128",
+		"image" : "images/temp_est/RNG0128.png",
+		"name": "Bolt Anchor B"
+	},
+	{
+		"item" : "RNG0129",
+		"image" : "images/temp_est/RNG0129.png",
+		"name": "Cut Anchor"
+	},
+	{
+		"item" : "RNG0130",
+		"image" : "images/temp_est/RNG0130.png",
+		"name": "Drop in Anchor"
+	},
+	{
+		"item" : "RNG0131",
+		"image" : "images/temp_est/RNG0131.png",
+		"name": "Shield Anchors"
+	},
+	{
+		"item" : "RNG0132",
+		"image" : "images/temp_est/RNG0132.png",
+		"name": "HILTI Anchor"
+	},
+	{
+		"item" : "RNG0133",
+		"image" : "images/temp_est/RNG0133.png",
+		"name": "Bolt Anchor"
+	},
+	{
+		"item" : "RNG0134",
+		"image" : "images/temp_est/RNG0134.png",
+		"name": "Sleeve Anchor"
+	},
+	{
+		"item" : "RNG0135",
+		"image" : "images/temp_est/RNG0135.png",
+		"name": "Hit Anchor"
+	},
+	{
+		"item" : "RNG0136",
+		"image" : "images/temp_est/RNG0136.png",
+		"name": "Hook bolt"
+	},
+	{
+		"item" : "RNG0137",
+		"image" : "images/temp_est/RNG0137.png",
+		"name": "Hex Head Steel bolt Anchor"
+	},
+	{
+		"item" : "RNG0138",
+		"image" : "images/temp_est/RNG0138.png",
+		"name": "Hammer Drive Anchor"
+	},
+	{
+		"item" : "RNG0139",
+		"image" : "images/temp_est/RNG0139.png",
+		"name": "Nylon Nailanchors"
+	},
+	{
+		"item" : "RNG0140",
+		"image" : "images/temp_est/RNG0140.png",
+		"name": "Concrete Nailanchors"
+	},
+	{
+		"item" : "RNG0141",
+		"image" : "images/temp_est/RNG0141.png",
+		"name": "Screw Plug A"
+	},
+	{
+		"item" : "RNG0142",
+		"image" : "images/temp_est/RNG0142.png",
+		"name": "Screw Plug B"
+	}
+]

@@ -1,0 +1,189 @@
+[
+	{
+		"item" : "RNEL0051", 
+		"image": "images/electrical_materials/RNEL0051.png", 
+		"name": "TR Test Junction Clamp"
+	},
+	{
+		"item" : "RNEL0052", 
+		"image": "images/electrical_materials/RNEL0052.png", 
+		"name": "Earth Pits"
+	},
+	{
+		"item" : "RNEL0053", 
+		"image": "images/electrical_materials/RNEL0053.png", 
+		"name": "Aluminium Tape"
+	},
+	{
+		"item" : "RNEL0054", 
+		"image": "images/electrical_materials/RNEL0054.png", 
+		"name": "Copper Tape"
+	},
+	{
+		"item" : "RNEL0055", 
+		"image": "images/electrical_materials/RNEL0055.png", 
+		"name": "Allum to Copper Bimetallic Connector & Copper to Copper"
+	},
+	{
+		"item" : "RNEL0056", 
+		"image": "images/electrical_materials/RNEL0056.png", 
+		"name": "Cable Tie Nylon"
+	},
+	{
+		"item" : "RNEL0057", 
+		"image": "images/electrical_materials/RNEL0057.png", 
+		"name": "Cable Lugs"
+	},
+	{
+		"item" : "RNEL0058", 
+		"image": "images/electrical_materials/RNEL0058.png", 
+		"name": "Butt Connector Nylon Insulated"
+	},
+	{
+		"item" : "RNEL0059", 
+		"image": "images/electrical_materials/RNEL0059.png", 
+		"name": "Butt Connectors- Copper Tinned"
+	},
+	{
+		"item" : "RNEL0060", 
+		"image": "images/electrical_materials/RNEL0060.png", 
+		"name": "Butt Connectors- DIN46271"
+	},
+	{
+		"item" : "RNEL0061", 
+		"image": "images/electrical_materials/RNEL0061.png", 
+		"name": "Terminal strips"
+	},
+
+
+	{
+		"item" : "RNEL0094", 
+		"image": "images/electrical_materials/RNEL0094.png", 
+		"name" : "Weatherproof Fluorescent"
+	},
+	{
+		"item" : "RNEL0095", 
+		"image": "images/electrical_materials/RNEL0095.png", 
+		"name" : "Fluorescent Light"
+	},
+	{
+		"item" : "RNEL0096", 
+		"image": "images/electrical_materials/RNEL0096.png", 
+		"name" : "Fluorescent Tube"
+	},
+	{
+		"item" : "RNEL0097", 
+		"image": "images/electrical_materials/RNEL0097.png", 
+		"name" : "Floodlight Philip Lamp"
+	},
+	{
+		"item" : "RNEL0098", 
+		"image": "images/electrical_materials/RNEL0098.png", 
+		"name" : "Philip Lamp"
+	},
+	{
+		"item" : "RNEL0099", 
+		"image": "images/electrical_materials/RNEL0099.png", 
+		"name" : "Starter"
+	},
+	{
+		"item" : "RNEL0100", 
+		"image": "images/electrical_materials/RNEL0100.png", 
+		"name" : "Electrical Insulation"
+	},
+	{
+		"item" : "RNEL0101", 
+		"image": "images/electrical_materials/RNEL0101.png", 
+		"name" : "Industrial PVC Tape"
+	},
+	{
+		"item" : "RNEL0102", 
+		"image": "images/electrical_materials/RNEL0102.png", 
+		"name" : "Double side Tape with Sponge"
+	},
+	{
+		"item" : "RNEL0103", 
+		"image": "images/electrical_materials/RNEL0103.png", 
+		"name" : "Scotch Splicing Tape Black"
+	},
+	{
+		"item" : "RNEL0104", 
+		"image": "images/electrical_materials/RNEL0104.png", 
+		"name" : "Rubber Mat"
+	},
+	{
+		"item" : "RNEL0105", 
+		"image": "images/electrical_materials/RNEL0105.png", 
+		"name" : "Test Pen"
+	},
+	{
+		"item" : "RNEL0106", 
+		"image": "images/electrical_materials/RNEL0106.png", 
+		"name" : "Electrical Scissors"
+	},
+	{
+		"item" : "RNEL0107", 
+		"image": "images/electrical_materials/RNEL0107.png", 
+		"name" : "Wire Rope Cutter"
+	},
+	{
+		"item" : "RNEL0108", 
+		"image": "images/electrical_materials/RNEL0108.png", 
+		"name" : "Gardening Shear"
+	},
+	{
+		"item" : "RNEL0109", 
+		"image": "images/electrical_materials/RNEL0109.png", 
+		"name" : "C Bracket"
+	},
+	{
+		"item" : "RNEL0110", 
+		"image": "images/electrical_materials/RNEL0110.png", 
+		"name" : "Mason Drop-in Anchor"
+	},
+	{
+		"item" : "RNEL0111", 
+		"image": "images/electrical_materials/RNEL0111.png", 
+		"name" : "G Bolt & Washer"
+	},
+	{
+		"item" : "RNEL0112", 
+		"image": "images/electrical_materials/RNEL0112.png", 
+		"name" : "UPVC Pipe Socket"
+	},
+	{
+		"item" : "RNEL0113", 
+		"image": "images/electrical_materials/RNEL0113.png", 
+		"name" : "Nylon Nail Anchor"
+	},
+	{
+		"item" : "RNEL0114", 
+		"image": "images/electrical_materials/RNEL0114.png", 
+		"name" : "Push Button Red"
+	},
+	{
+		"item" : "RNEL0115", 
+		"image": "images/electrical_materials/RNEL0115.png", 
+		"name" : "Energency Callpoint"
+	},
+	{
+		"item" : "RNEL0116", 
+		"image": "images/electrical_materials/RNEL0116.png", 
+		"name" : "Underground Cable Protection Cover"
+	},
+	{
+		"item" : "RNEL0117", 
+		"image": "images/electrical_materials/RNEL0117.png", 
+		"name" : "Statable Plug"
+	},
+	{
+		"item" : "RNEL0118", 
+		"image": "images/electrical_materials/RNEL0118.png", 
+		"name" : "PVC Cable Trunking"
+	},
+	{
+		"item" : "RNEL0119", 
+		"image": "images/electrical_materials/RNEL0119.png", 
+		"name" : "Gruppe Pg Glands"
+	}
+]

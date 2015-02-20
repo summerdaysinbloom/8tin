@@ -1,0 +1,22 @@
+[
+	{
+		"item" : "RNQ0001", 
+		"image": "images/qc/RNQ0001.png", 
+		"name": "Crack repair"
+	},
+	{
+		"item" : "RNQ0010", 
+		"image": "images/qc/RNQ0010.png", 
+		"name": "Water leaking repair"
+	},
+	{
+		"item" : "RNQ0012", 
+		"image": "images/qc/RNQ0012.png", 
+		"name": "PU machine"
+	},
+	{
+		"item" : "RNQ0013", 
+		"image": "images/qc/RNQ0013.png", 
+		"name": "Masterseal 640"
+	}
+]

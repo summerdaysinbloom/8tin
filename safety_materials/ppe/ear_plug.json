@@ -1,0 +1,17 @@
+[
+	{
+		"item" : "dark", 
+		"image": "images/safety_materials/RNS0021.png", 
+		"name": "RNS0021"
+	},
+	{
+		"item" : "clear", 
+		"image": "images/safety_materials/RNS0022.png", 
+		"name": "RNS0022"
+	},
+	{
+		"item" : "clear", 
+		"image": "images/safety_materials/RNS0023.png", 
+		"name": "RNS0023"
+	}
+]

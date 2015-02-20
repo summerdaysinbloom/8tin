@@ -1,0 +1,42 @@
+[
+	{
+		"item" : "RNSC0016", 
+		"image": "images/scaffold/RNSC0016.png", 
+		"name": "Scaffold ratchet"
+	},
+	{
+		"item" : "RNSC0019", 
+		"image": "images/scaffold/RNSC0019.png", 
+		"name": "Scaffold spirit level"
+	},
+	{
+		"item" : "RNSC0020", 
+		"image": "images/scaffold/RNSC0020.png", 
+		"name": "Precut wire"
+	},
+	{
+		"item" : "RNSC0021", 
+		"image": "images/scaffold/RNSC0021.png", 
+		"name": "Galvanized wire"
+	},
+	{
+		"item" : "RNSC0022", 
+		"image": "images/scaffold/RNSC0022.png", 
+		"name": "Wire bend handle"
+	},
+	{
+		"item" : "RNSC0023", 
+		"image": "images/scaffold/RNSC0023.png", 
+		"name": "Scaffold wire bend tool"
+	},
+	{
+		"item" : "RNSC0024", 
+		"image": "images/scaffold/RNSC0024.png", 
+		"name": "Wire cutting scissor"
+	},
+	{
+		"item" : "RNSC0028", 
+		"image": "images/scaffold/RNSC0028.png", 
+		"name": "Pipe cap"
+	}
+]

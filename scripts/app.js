@@ -1,101 +1,115 @@
 'use strict';
 
 /* App Module */
-var app = angular.module('ffApp', [
+var app = angular.module('angularApp', [
     'ngRoute',
     'ngControllers',
-    'ngAnimate',
-    'ngDirectives',
-    'ngServices'
+    'duScroll',
+    'ngFilters'
+    // 'ngServices'
+    // 'duScroll'
+    // 'ngServices',
 ]);
 
-app
-.run(['$templateCache', function($templateCache) {
-    // $templateCache.put('change.html', '<p>Oh, you changed your mind !</p>');
-    $templateCache.put('change.html', '<div class="spinner"><div class="spinner-container container1"><div class="circle1"></div><div class="circle2"></div><div class="circle3"></div><div class="circle4"></div></div><div class="spinner-container container2"><div class="circle1"></div><div class="circle2"></div><div class="circle3"></div><div class="circle4"></div></div><div class="spinner-container container3"><div class="circle1"></div><div class="circle2"></div><div class="circle3"></div><div class="circle4"></div></div></div>');
-}])
-.run(['$location', '$rootScope', '$timeout', 
-    function($location, $rootScope, $timeout) {
+app.run(['$location', '$rootScope', '$timeout', '$routeParams', 
+    function($location, $rootScope, $timeout, $routeParams) {
         $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
+            // when change route, page always goes top (jquery attached)
+            $(window).scrollTop(0);
+            
+            // console.log('app is running ', $(window).height());
+            // $(window).scroll(function(){ 
+            //     console.log('scrolling');
+            //     if ($(window).scrollTop() > offset) {
+            //         $('#header').addClass('fixed');
+            //     } else {
+            //         $('#header').removeClass('fixed');
+            //     }
+            // });
+
             // metadata
-            $rootScope.title = current.$$route.title;
-            $rootScope.keywords = current.$$route.keywords;        
-            $rootScope.description = current.$$route.description;
+            // $rootScope.title = current.$$route.title;
+            // $rootScope.keywords = current.$$route.keywords;
+            // $rootScope.description = current.$$route.description;
+            // $rootScope.navclass = current.$$route.navclass;
+            // $rootScope.sidebarclass = current.$$route.sidebarclass;
+            $rootScope.hideLanding = current.$$route.hideLanding;
+            $rootScope.containerPadding = current.$$route.containerPadding;
     
-            // Hidden footer effect on main page
+            // // navigation button
+            // $rootScope.hideNav = false;
+            // $rootScope.showNav = false;
 
-            // if($location.path() == '/') {
-            //     $rootScope.hideHomeButton = true;
-            // } else {
-            //     $rootScope.hideHomeButton = false;
-            // }
+            // $rootScope.showWork = true;
 
-            // if($location.path() == '/dine-in') {
-            //     $rootScope.hideIn = true;
-            //     $rootScope.hideStickyBar = false;
-            // } else {
-            //     $rootScope.hideIn = false;
-            //     $rootScope.hideStickyBar = false;
-            // }
-            // if($location.path() == '/dine-out') {
-            //     $rootScope.hideOut = true;
-            //     $rootScope.hideStickyBar = false;
-            // } else {
-            //     $rootScope.hideOut = false;
-            //     $rootScope.hideStickyBar = false;
-            // }
-            // if($location.path() == '/') {
-            //     $rootScope.hideIn = true;
-            //     $rootScope.hideOut = true;
-            //     $rootScope.hideStickyBar = true;
+            // // inside sidebar
+            // $rootScope.showWorkG = false;
+            // $rootScope.showWorkN = false;
+            // $rootScope.showAboutG = false;
+            // $rootScope.showAboutN = false;
+            // $rootScope.showCvG = false;
+            // $rootScope.showCvN = false;
+        
+            // if($location.path() != current.$$route.originalPath ) {
+            //     $rootScope.showNav = false;
             // }
 
-            // //  demo2
+            // if ($location.url().match('works/')) {
+            //     $rootScope.hideNav = true;
+            //     $rootScope.showWork = true;
+            // }
 
-            // if($location.path() == '/delivery') {
-            //     $rootScope.hideIn = true;
-            //     $rootScope.hideStickyBar = false;
-            // } else {
-            //     $rootScope.hideIn = false;
-            //     $rootScope.hideStickyBar = false;
+            // if ($location.url().match('work/gary')) {
+            //     $rootScope.hideNav = false;
+            //     $rootScope.showWorkG = true;
+            //     $rootScope.showWork = false;
+            //     $rootScope.showWork = false;
             // }
-            // if($location.path() == '/eatout') {
-            //     $rootScope.hideOut = true;
-            //     $rootScope.hideStickyBar = false;
-            // } else {
-            //     $rootScope.hideOut = false;
-            //     $rootScope.hideStickyBar = false;
+
+            // if ($location.url().match('work/nikhil')) {
+            //     $rootScope.hideNav = false;
+            //     $rootScope.showWorkN = true;
+            //     $rootScope.showWorkG = false;
+            //     $rootScope.showWork = false;
             // }
-            // if($location.path() == '/main') {
-            //     $rootScope.hideIn = true;
-            //     $rootScope.hideOut = true;
-            //     $rootScope.hideStickyBar = true;
-            // } 
+
+            // if ($location.url().match('work/gary/')) {
+            //     $rootScope.hideNav = true;
+            // }
+            
+            // if ($location.url().match('work/nikhil/')) {
+            //     $rootScope.hideNav = true;
+            // }
+
+            // if ($location.url().match('about/gary-lim')) {
+            //     $rootScope.hideNav = false;
+            //     $rootScope.showAboutG = true;
+            //     $rootScope.showAboutN = false;
+            //     $rootScope.showWork = false;
+            // }
+
+            // if ($location.url().match('about/nikhil')) {
+            //     $rootScope.hideNav = false;
+            //     $rootScope.showAboutG = false;
+            //     $rootScope.showAboutN = true;
+            //     $rootScope.showWork = false;
+            // }
+
+            // if ($location.url().match('cv/gary-lim')) {
+            //     $rootScope.hideNav = false;
+            //     $rootScope.showCvG = true;
+            //     $rootScope.showCvN = false;
+            //     $rootScope.showWork = false;
+            // }
+
+            // if ($location.url().match('cv/nikhil')) {
+            //     $rootScope.hideNav = false;
+            //     $rootScope.showCvG = false;
+            //     $rootScope.showCvN = true;
+            //     $rootScope.showWork = false;
+            // }
         });
-    }
-]);
-
-app.run(function($rootScope, $window) {
-    // publish current transition direction on rootScope
-
-    $rootScope.direction = 'left';
-
-    // listen change start events
-    $rootScope.$on('$routeChangeStart', function(event, next, current) {
-        $rootScope.direction = 'right';
-
-        // transition effect for individual pages
-        if (current && next && (current.depth > next.depth)) {
-            $rootScope.direction = 'left';
-        } else if (current && next) {
-            $rootScope.direction = 'right';
-        }
-        // back
-        $rootScope.back = function() {
-          $window.history.back();
-        }
-    });
-});
+}]);
 
 app.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
     
@@ -104,53 +118,75 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
     $routeProvider
 	    .when('/', {
             templateUrl: 'views/main.html',
-            controller: 'MainCtrl',
-            depth: 1,
-            title: 'demo',
-            keywords: 'demo',
-            description: 'lets eat out'
+            title: '',
+            keywords: '',
+            description: '',
+            hideLanding: '',
+            containerPadding: ''
         })
-        .when('/dishes', {
-            templateUrl: 'views/dishes.html',
-            controller: 'DishesCtrl',
-            depth: 2,
-            title: 'dishes',
-            keywords: 'dishes',
-            description: 'By random dishes'
+        .when('/hardwares', {
+            templateUrl: 'views/hardwares.html',
+            controller: 'hardwaresCtrl',
+            title: '',
+            keywords: '',
+            description: '',
+            hideLanding: 'hide',
+            containerPadding: 'padding'
         })
-        .when('/asian', {
-            templateUrl: 'views/cuisine-asian.html',
-            controller: 'CuisineAsianCtrl',
-            depth: 2,
-            title: 'asian',
-            keywords: 'asian',
-            description: 'asian'
+        .when('/hardwares/:params', {
+            templateUrl: 'views/hardware-category1.html',
+            controller: 'hwCate1Ctrl',
+            title: '',
+            keywords: '',
+            description: '',
+            hideLanding: 'hide',
+            containerPadding: 'padding'
         })
-        .when('/local', {
-            templateUrl: 'views/cuisine-local.html',
-            controller: 'CuisineLocalCtrl',
-            depth: 2,
-            title: 'local',
-            keywords: 'local',
-            description: 'local'
+        .when('/hardwares/:params/:subparams', {
+            templateUrl: 'views/hardware-category2.html',
+            controller: 'hwCate2Ctrl',
+            title: '',
+            keywords: '',
+            description: '',
+            hideLanding: 'hide',
+            containerPadding: 'padding'
         })
-        .when('/western', {
-            templateUrl: 'views/cuisine-western.html',
-            controller: 'CuisineWesternCtrl',
-            depth: 2,
-            title: 'western',
-            keywords: 'western',
-            description: 'western'
+        .when('/hardwares/:params/:subparams/:subcate', {
+            templateUrl: 'views/hardware-category3.html',
+            controller: 'hwCate3Ctrl',
+            title: '',
+            keywords: '',
+            description: '',
+            hideLanding: 'hide',
+            containerPadding: 'padding'
         })
-        .when('/restaurant', {
-            templateUrl: 'views/restaurant.html',
-            controller: 'RestaurantCtrl',
-            depth: 2,
-            title: 'restaurant',
-            keywords: 'restaurant',
-            description: 'restaurant'
+        .when('/engineering', {
+            templateUrl: 'views/engineering.html',
+            controller: 'engineeringCtrl',
+            title: '',
+            keywords: '',
+            description: '',
+            hideLanding: '',
+            containerPadding: 'padding'
         })
-	   .otherwise({
-        	redirectTo: '/'
+        .when('/construction', {
+            templateUrl: 'views/construction.html',
+            controller: 'constructionCtrl',
+            title: '',
+            keywords: '',
+            description: '',
+            hideLanding: '',
+            containerPadding: 'padding'
+        })
+        .when('/search', {
+            templateUrl: 'views/search.html',
+            title: '',
+            keywords: '',
+            description: '',
+            hideLanding: '',
+            containerPadding: 'padding'
+        })
+	    .otherwise({
+         	redirectTo: '/'
         });
     }]);

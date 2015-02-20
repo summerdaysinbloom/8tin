@@ -1,0 +1,42 @@
+[
+  {
+    "item": "Cotton",
+    "image": "images/safety_materials/hand_gloves/cotton.png",
+    "name": "Cotton"
+  },
+  {
+    "item": "Latex Coated",
+    "image": "images/safety_materials/hand_gloves/latex_coated.png",
+    "name": "Latex Coated"
+  },
+  {
+    "item": "Nitex Coated",
+    "image": "images/safety_materials/hand_gloves/nitrile_coated.png",
+    "name": "Nitex Coated"
+  },
+  {
+    "item": "Black Latex Chemical Gloves",
+    "image": "images/safety_materials/hand_gloves/black_latex_chemical.png",
+    "name": "Black Latex Chemical Gloves"
+  },
+  {
+    "item": "Industrial Latex Gloves",
+    "image": "images/safety_materials/hand_gloves/industrial_latex.png",
+    "name": "Industrial Latex Gloves"
+  },
+  {
+    "item": "Sanitation Gloves",
+    "image": "images/safety_materials/hand_gloves/sanitation.png",
+    "name": "Sanitation Gloves"
+  },
+  {
+    "item": "Leather Welding Gloves(Red)",
+    "image": "images/safety_materials/hand_gloves/leather_welding.png",
+    "name": "Leather Welding Gloves"
+  },
+  {
+    "item": "Leather Welding Gloves(Grey)",
+    "image": "images/safety_materials/hand_gloves/welding.png",
+    "name": "Leather Welding Gloves"
+  }
+]

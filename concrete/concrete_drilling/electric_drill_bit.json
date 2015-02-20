@@ -1,0 +1,27 @@
+[
+	{
+		"item" : "RNC-Hilti", 
+		"image": "images/concrete/RNC-Hilti.png", 
+		"name": "Hilti drill TE50"
+	},
+	{
+		"item" : "RNC-BOSCH", 
+		"image": "images/concrete/RNC-BOSCH.png", 
+		"name": "BOSCH drill GBH4T32DFR"
+	},
+	{
+		"item" : "RNC-concrete", 
+		"image": "images/concrete/RNC-concrete.png", 
+		"name": "For concrete"
+	},
+	{
+		"item" : "RNC-steel", 
+		"image": "images/concrete/RNC-steel.png", 
+		"name": "For steel"
+	},
+	{
+		"item" : "RNC-augerbit", 
+		"image": "images/concrete/RNC-augerbit.png", 
+		"name": "Auger Bit(for wood)"
+	}
+]

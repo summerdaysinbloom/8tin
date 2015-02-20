@@ -3,63 +3,105 @@
 <!--[if IE 7]>         <html class='no-js lt-ie9 lt-ie8'> <![endif]-->
 <!--[if IE 8]>         <html class='no-js lt-ie9'> <![endif]-->
 <!--[if gt IE 8]><!--> 
-<html class='no-js'> <!--<![endif]-->
+<html class='no-js' id='overlay-html' data-ng-app='angularApp'> <!--<![endif]-->
 <head>
+  <!-- <base href="/"> -->
   <!-- <base href="/"> -->
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <meta name='viewport' content='initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width'>
-  <title ng-bind='title'>qwer</title>
+  <title ng-bind="'Rhino E&C PTE LTD' + title"></title>
   <meta name='keywords' property='og:keywords' content='{{keywords}}'>
   <meta name='description' property='og:description' content='{{description}}'>
-  <meta name='copyright' content='demo'>  
+  <meta name='copyright' content=''>  
   <link rel='shortcut icon' href='favicon.ico'>
+
+  <!-- font from web -->
+  <!-- <link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/futura-renner" rel="stylesheet" type="text/css"/> -->
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 
   <!-- build:css(.tmp) styles/main.css -->
-  <link rel='stylesheet' href='lib/css/pure.min.css'>
-  <link rel='stylesheet' href='style/style.min.css'>
-  <!-- <link rel='stylesheet' href='style/font.css'> -->
+  <link rel='stylesheet' href='lib/css/pure.v0.5.0.css'>
+  <link rel='stylesheet' href='lib/css/grids-responsive-min.css'>
+
+  <!-- <link rel='stylesheet' href='lib/css/buttons.css'> -->
+  <link rel='stylesheet' href='assets/style.min.css'>
+  <link rel='stylesheet' href='style/font.css'>
   <!-- endbuild -->
 </head>
-<body data-ng-app='ffApp'>
-  <!--[if lt IE 7]>
-    <p class='browsehappy'>You are using an <strong>outdated</strong> browser. Please <a href='http://browsehappy.com/'>upgrade your browser</a> to improve your experience.</p>
-  <![endif]-->
-
-  <!--[if lt IE 9]>
-    <script src='bower_components/es5-shim/es5-shim.js'></script>
-    <script src='bower_components/json3/lib/json3.min.js'></script>
-  <![endif]-->
-
-  <header class='pure-g' ng-hide='hideHomeButton'>
-    <a href='#/'><p class='pure-u-1'>home<span class='icon-cake'></span></p></a>
+<body id='body' class='pure-g wrap' ng-controller="scrollCtrl">
+  <div id='overlay'></div>
+<!--   <header class='pure-g' ng-class='hideLanding'>
+    <p ng-click='scrollToMain()' id='clickthis' class='pure-u-1'>click</p>
   </header>
+ -->
+  <!-- <header id="section-1" ng-class='hideLanding' class='pure-u-1'>
+    <a ng-click='scrollToMain();'  class='pure-u-1'>click</a>
+  </header> -->
+  
+  
+  <div id='container' class='pure-g' ng-view ng-cloak ng-class='containerPadding'></div>
 
-  <div class='view-animate-container' ng-class='direction'>
-    <div ng-view class='view-animate pure-g-r' id='container' ng-cloak ng-class="{withdetails: showMenu == true}" >></div>
-  </div>
+  <footer>
+    <span class='pure-u-1 pure-u-sm-1-2 pure-u-md-1-2 pure-u-lg-1-2'>RHINO E&C PTE LTD &COPYCOPYRIGHT 2014</span>
+    <form  class='pure-u-1 pure-u-sm-1-2 pure-u-md-1-2 pure-u-lg-1-2' data-ng-submit='submit(data)'>
+      <input id='search-input' name='search-input' type='text' placeholder='search' data-ng-model="data" />
+      <input type='submit' id='submit' value='search'/>
+    </form>
+  </footer>
 
-  <!-- <div ng-include src=" '/views/menu-detail.html' "></div> -->
-
+  <!-- <footer class='pure-u-1'>
+    <p>RHINO E&C PTE LTD &COPYCOPYRIGHT 2014 | <a class='link' href="mailto:rhino.han@gmail.com?Subject=Hello">Contact us</a> |  <span class='icon-chat'></span>  Kakao: rhino84</p>
+  </footer> -->
+  <!-- <footer class='pure-u-1'>
+    <p>copyright</p>
+  </footer>
+ -->
   <!-- 3rd party -->
-  <!-- // <script src='lib/js/jquery.min.js'></script> -->
   <script src='lib/angular/angular.min.js'></script>
   <script src='lib/angular/angular-route.min.js'></script>
+  <script src='lib/angular/angular-route.js'></script>
   <script src='lib/angular/angular-resource.min.js'></script>
   <script src='lib/angular/angular-cookies.min.js'></script>
   <script src='lib/angular/angular-sanitize.min.js'></script>
   <script src='lib/angular/angular-touch.min.js'></script>
   <script src='lib/angular/angular-animate.min.js'></script>
 
+  <script src='lib/js/jquery.min.js'></script>
+  <script src='lib/js/angular-scroll.js'></script>
+  <!-- // <script src='lib/js/angular-scroll.min.js'></script> -->
+
   <!-- App -->
   <script src='scripts/app.js'></script>
   <script src='scripts/controllers.js'></script>
-  <script src='scripts/directives.js'></script>
-  <script src='scripts/services.js'></script>
   <script src='scripts/filters.js'></script>
-  <!-- swipe -->
-  <script src='lib/js/jquery.min.2.1.1.js'></script>
-  <script src='lib/js/swipe.js'></script>
+  <script src='scripts/services.js'></script>
+  <!--<script type="text/javascript">
+    var items = [
+   '3M 8210',
+   'Dust Mask',
+   'Surgical Mask'
+
+    ];
+    var g_items = [];
+
+
+    for(var i = 0; i < items.length; i++) {
+
+        var item = '"item" : "'+items[i].toLowerCase().replace(/ /g, "_")+'", "image": "images/octocat.png", "name": "'+items[i] +'"';
+        console.log(item);
+
+        g_items.push(item);
+
+
+    }
+
+    console.log(' --------------------------- '+g_items.length );
+
+
+
+  </script>-->
 </body>
 </html>

@@ -1,0 +1,22 @@
+[
+	{
+		"item" : "RNS0042", 
+		"image": "images/safety_materials/RNS0042.png", 
+		"name": "Two Piece Yellow"
+	},
+	{
+		"item" : "RNS0043", 
+		"image": "images/safety_materials/RNS0043.png", 
+		"name": "One Piece Yellow"
+	},
+	{
+		"item" : "RNS0044", 
+		"image": "images/safety_materials/RNS0044.png", 
+		"name": "Two Piece Blue"
+	},
+	{
+		"item" : "RNS0045", 
+		"image": "images/safety_materials/RNS0045.png", 
+		"name": "Life Jacket Zip" 
+	}
+]

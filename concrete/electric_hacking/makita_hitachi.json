@@ -1,0 +1,18 @@
+[
+	{
+		"item" : "RNC0055-1", 
+		"image": "images/concrete/RNC0055-1.png", 
+		"name": "Demolition Hammer HM0810TA"
+	},
+	{
+		"item" : "RNC0055", 
+		"image": "images/concrete/RNC0055.png", 
+		"name": "Bull point"
+	},
+	{
+		"item" : "RNC0056", 
+		"image": "images/concrete/RNC0056.png", 
+		"name": "Chisel"
+	}
+]
+

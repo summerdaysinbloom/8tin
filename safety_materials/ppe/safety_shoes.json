@@ -1,0 +1,22 @@
+[
+	{
+		"item" : "RNS0032", 
+		"image": "images/safety_materials/RNS0032.png",
+		"name": "Safety shoes A"
+	},
+	{
+		"item" : "RNS0033", 
+		"image": "images/safety_materials/RNS0033.png",
+		"name": "Safety shoes B"
+	},
+	{
+		"item" : "RNS0034", 
+		"image": "images/safety_materials/RNS0034.png",
+		"name": "Safety boots"
+	},
+	{
+		"item" : "RNS0034", 
+		"image": "images/safety_materials/RNS0034_1.png",
+		"name": "Safety boots"
+	}
+]

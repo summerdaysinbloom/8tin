@@ -1,0 +1,37 @@
+[
+	{
+		"item" : "RNS0094", 
+		"image": "images/safety_materials/RNS0094.png", 
+		"name": "Hock Ladder"
+	}, 
+	{
+		"item" : "RNS0100", 
+		"image": "images/safety_materials/RNS0100.png", 
+		"name": "Ladder Single"
+	}, 
+	{
+		"item" : "RNS0108", 
+		"image": "images/safety_materials/RNS0108.png", 
+		"name": "Ladder Slide"
+	}, 
+	{
+		"item" : "RNS0113", 
+		"image": "images/safety_materials/RNS0113.png", 
+		"name": "Fiberglass Ladder"
+	}, 
+	{
+		"item" : "RNS0124", 
+		"image": "images/safety_materials/RNS0124.png", 
+		"name": "Aluminum Ladder Type A"
+	}, 
+	{
+		"item" : "RNS0135", 
+		"image": "images/safety_materials/RNS0135.png", 
+		"name": "Aluminum Ladder Type B"
+	}, 
+	{
+		"item" : "RNS_platform_ladder", 
+		"image": "images/safety_materials/RNS_platform_ladder.png", 
+		"name": "Platform Ladder"
+	}
+]

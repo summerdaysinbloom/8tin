@@ -1,0 +1,112 @@
+[
+	{
+		"item" : "RNC0004", 
+		"image": "images/concrete/RNC0004.png", 
+		"name": "Changkol/Handle"
+	},
+	{
+		"item" : "RNC0005", 
+		"image": "images/concrete/RNC0005.png", 
+		"name": "Rebar Cutter Bender 16"
+	},
+	{
+		"item" : "RNC0007", 
+		"image": "images/concrete/RNC0007.png", 
+		"name": "Wire Twister"
+	},
+	{
+		"item" : "RNC0008", 
+		"image": "images/concrete/RNC0008.png", 
+		"name": "Bow Saw"
+	},
+	{
+		"item" : "RNC0011", 
+		"image": "images/concrete/RNC0011.png", 
+		"name": "Sand"
+	},
+	{
+		"item" : "RNC0012", 
+		"image": "images/concrete/RNC0012.png", 
+		"name": "Gravel"
+	},
+	{
+		"item" : "RNC0015", 
+		"image": "images/concrete/RNC0015.png", 
+		"name": "Claw Hammer"
+	},
+	{
+		"item" : "RNC0016", 
+		"image": "images/concrete/RNC0016.png", 
+		"name": "Rail Read Pick"
+	},
+	{
+		"item" : "RNC0017", 
+		"image": "images/concrete/RNC0017.png", 
+		"name": "Axe Wooden Handle"
+	},
+	{
+		"item" : "RNC0021", 
+		"image": "images/concrete/RNC0021.png", 
+		"name": "Brass Hammer Wooden"
+	},
+	{
+		"item" : "RNC0022", 
+		"image": "images/concrete/RNC0022.png", 
+		"name": "MZW Wrecking Bar"
+	},
+	{
+		"item" : "RNC0023", 
+		"image": "images/concrete/RNC0023.png", 
+		"name": "Aluminium Level(magnetic)"
+	},
+	{
+		"item" : "RNC0025", 
+		"image": "images/concrete/RNC0025.png", 
+		"name": "HYRIB Mesh"
+	},
+	{
+		"item" : "RNC0027", 
+		"image": "images/concrete/RNC0027.png", 
+		"name": "Extruded Polyfoam"
+	},
+	{
+		"item" : "RNC0028", 
+		"image": "images/concrete/RNC0028.png", 
+		"name": "Rock Wool"
+	},
+	{
+		"item" : "RNC0029", 
+		"image": "images/concrete/RNC0029.png", 
+		"name": "Flexible Blanket"
+	},
+	{
+		"item" : "RNC0031", 
+		"image": "images/concrete/RNC0031.png", 
+		"name": "Marking Tool B"
+	},
+	{
+		"item" : "RNC0033", 
+		"image": "images/concrete/RNC0033.png", 
+		"name": "Auto Saw GKS190"
+	},
+	{
+		"item" : "RNC0035", 
+		"image": "images/concrete/RNC0035.png", 
+		"name": "Concrete Spacer"
+	},
+	{
+		"item" : "RNC0036", 
+		"image": "images/concrete/RNC0036.png", 
+		"name": "Plastic rebar chair spacer"
+	},
+	{
+		"item" : "RNC0037", 
+		"image": "images/concrete/RNC0037.png", 
+		"name": "Plaswheel"
+	},
+	{
+		"item" : "RNC0038", 
+		"image": "images/concrete/RNC0038.png", 
+		"name": "bar chair"
+	}
+]

@@ -1,0 +1,82 @@
+[
+	{
+		"item" : "draincleaner",
+		"image" : "images/temp_est/draincleaner.png",
+		"name": "Drain cleaner"
+	},
+	{
+		"item" : "RNG0100",
+		"image" : "images/temp_est/RNG0100.png",
+		"name": "Key box"
+	},
+	{
+		"item" : "RNG0101",
+		"image" : "images/temp_est/RNG0101.png",
+		"name": "Grinder Bearing"
+	},
+	{
+		"item" : "RNG0102",
+		"image" : "images/temp_est/RNG0102.png",
+		"name": "Grinder Bearing"
+	},
+	{
+		"item" : "RNG0103",
+		"image" : "images/temp_est/RNG0103.png",
+		"name": "Wire Brush"
+	},
+	{
+		"item" : "RNG0104",
+		"image" : "images/temp_est/RNG0104.png",
+		"name": "Carbon brushes"
+	},
+	{
+		"item" : "RNG0105",
+		"image" : "images/temp_est/RNG0105.png",
+		"name": "Tester"
+	},
+	{
+		"item" : "RNG0106",
+		"image" : "images/temp_est/RNG0106.png",
+		"name": "Hex key"
+	},
+	{
+		"item" : "RNG0107",
+		"image" : "images/temp_est/RNG0107.png",
+		"name": "Alien Key"
+	},
+	{
+		"item" : "RNG0108",
+		"image" : "images/temp_est/RNG0108.png",
+		"name": "Pipe Wrench"
+	},
+	{
+		"item" : "RNG0109",
+		"image" : "images/temp_est/RNG0109.png",
+		"name": "Greasse Gun"
+	},
+	{
+		"item" : "RNG0110",
+		"image" : "images/temp_est/RNG0110.png",
+		"name": "Common Screwdriver"
+	},
+	{
+		"item" : "RNG0111",
+		"image" : "images/temp_est/RNG0111.png",
+		"name": "Hard top Screwdriver"
+	},
+	{
+		"item" : "RNG0112",
+		"image" : "images/temp_est/RNG0112.png",
+		"name": "Wood Chisel"
+	},
+	{
+		"item" : "RNG0113",
+		"image" : "images/temp_est/RNG0113.png",
+		"name": "Measuring Mug"
+	},
+	{
+		"item" : "RNG0114",
+		"image" : "images/temp_est/RNG0114.png",
+		"name": "PCV Glue"
+	}
+]

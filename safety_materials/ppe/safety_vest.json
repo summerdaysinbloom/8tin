@@ -1,0 +1,32 @@
+[
+	{
+		"item" : "RNS0027", 
+		"image": "images/safety_materials/RNS0027.png", 
+		"name": "Vest"
+	},
+	{
+		"item" : "RNS0028", 
+		"image": "images/safety_materials/RNS0028.png", 
+		"name": "Vest Yellow"
+	},
+	{
+		"item" : "RNS0029", 
+		"image": "images/safety_materials/RNS0029.png",
+		"name": "Vest Banksman"
+	},
+	{
+		"item" : "RNS0030", 
+		"image": "images/safety_materials/RNS0030.png",
+		"name": "Glow in the dark vest"
+	},
+	{
+		"item" : "RNS0031", 
+		"image": "images/safety_materials/RNS0031.png",
+		"name": "LED Safety Vest(Battery Type)"
+	},
+	{
+		"item" : "RNS0031", 
+		"image": "images/safety_materials/RNS0031_1.png",
+		"name": "LED Safety Vest(Battery Type)"
+	}
+]

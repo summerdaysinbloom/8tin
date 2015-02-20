@@ -1,0 +1,20 @@
+<div class='pure-u-1 category-bar-orange' ng-controller='hardwaresCtrl'>
+  <div>
+    <p>
+    <!-- <span class='icon-layout'></span> -->
+      <a class='cate-level' href="#/">Home</a>
+      <a id='item-title' href="#/hardwares"><span class='icon-arrow-right'></span> Hardwares</a>
+    </p>
+  </div>
+</div>
+<div class='pure-u-1' id='hardware-items'>
+  <div>
+    <ul class='pure-u-1 hardwares-list'>
+      <li class='pure-u-1' ng-repeat='item in hardwares'>
+        <a href="#/hardwares/{{item.category_id}}">
+          <h3>{{item.title}}</h3>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

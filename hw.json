@@ -1,0 +1,42 @@
+[
+  {
+    "category_id": "safety_materials",
+    "title": "Safety materials"
+  },
+  {
+    "category_id": "ecm",
+    "title": "ECM"
+  },
+  {
+    "category_id": "temporary_establishment_and_general_support",
+    "title": "Temporary establishment & general supprot"
+  },
+  {
+    "category_id": "scaffold",
+    "title": "Scaffold"
+  },
+  {
+    "category_id": "electrical_materials",
+    "title": "Eclectrical materials"
+  },
+  {
+    "category_id": "Concrete",
+    "title": "Concrete"
+  },
+  {
+    "category_id": "brick_plastering",
+    "title": "Brick, Plastering"
+  },
+  {
+    "category_id": "qc",
+    "title": "QC"
+  },
+  {
+    "category_id": "PVC_pipe_and_fitting",
+    "title": "PVC pipe & fitting"
+  },
+  {
+    "category_id": "paint_and_silicone",
+    "title": "Paint & silicone(RNPS)"
+  }
+]
